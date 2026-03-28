@@ -1,0 +1,877 @@
+[
+  {
+    "serie": "Brachial",
+    "serie_slug": "brachial",
+    "name": "Forged Brachial 3-teiliges Küchenmesserset",
+    "bild_lokal": "img/forged/forged-brachial-brute3comb.jpg",
+    "bild_url": "https://styledevie.nl/content/products/brute3comb.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Brachial",
+    "serie_slug": "brachial",
+    "name": "Forged Brachial Ausbeinmesser",
+    "bild_lokal": "img/forged/forged-brachial-bruteuitbeen.jpg",
+    "bild_url": "https://styledevie.nl/content/products/bruteuitbeen.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Brachial",
+    "serie_slug": "brachial",
+    "name": "Forged Brachial Brotmesser",
+    "bild_lokal": "img/forged/forged-brachial-brutebrood.jpg",
+    "bild_url": "https://styledevie.nl/content/products/brutebrood.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Brachial",
+    "serie_slug": "brachial",
+    "name": "Forged Brachial Tranchiermesser",
+    "bild_lokal": "img/forged/forged-brachial-brutevleesmes.jpg",
+    "bild_url": "https://styledevie.nl/content/products/brutevleesmes.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Brachial",
+    "serie_slug": "brachial",
+    "name": "Forged Brachial Hackbeil",
+    "bild_lokal": "img/forged/forged-brachial-brutehakbijl.jpg",
+    "bild_url": "https://styledevie.nl/content/products/brutehakbijl.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Brachial",
+    "serie_slug": "brachial",
+    "name": "Forged Brachial Kochmesser",
+    "bild_lokal": "img/forged/forged-brachial-brutekoksmes.jpg",
+    "bild_url": "https://styledevie.nl/content/products/brutekoksmes.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Brachial",
+    "serie_slug": "brachial",
+    "name": "Forged Brachial Kochmesser 16 cm",
+    "bild_lokal": "img/forged/forged-brachial-brutekoks16cm.png",
+    "bild_url": "https://styledevie.nl/content/products/brutekoks16cm.png?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Brachial",
+    "serie_slug": "brachial",
+    "name": "Forged Brachial Metzgermesser",
+    "bild_lokal": "img/forged/forged-brachial-brutebutcher.jpg",
+    "bild_url": "https://styledevie.nl/content/products/brutebutcher.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Brachial",
+    "serie_slug": "brachial",
+    "name": "Forged Brachial Santokumesser 14 cm",
+    "bild_lokal": "img/forged/forged-brachial-brutesant14cm.jpg",
+    "bild_url": "https://styledevie.nl/content/products/brutesant14cm.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Brachial",
+    "serie_slug": "brachial",
+    "name": "Forged Brachial Santokumesser 18 cm",
+    "bild_lokal": "img/forged/forged-brachial-brutesantoku18cm.jpg",
+    "bild_url": "https://styledevie.nl/content/products/brutesantoku18cm.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Brachial",
+    "serie_slug": "brachial",
+    "name": "Forged Brachial Schälmesser",
+    "bild_lokal": "img/forged/forged-brachial-bruteschilmes.jpg",
+    "bild_url": "https://styledevie.nl/content/products/bruteschilmes.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Brachial",
+    "serie_slug": "brachial",
+    "name": "Forged Brachial Steakmesser",
+    "bild_lokal": "img/forged/forged-brachial-brutesteakmes.jpg",
+    "bild_url": "https://styledevie.nl/content/products/brutesteakmes.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Brachial",
+    "serie_slug": "brachial",
+    "name": "Forged Brachial Universalmesser",
+    "bild_lokal": "img/forged/forged-brachial-bruteunimes.jpg",
+    "bild_url": "https://styledevie.nl/content/products/bruteunimes.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Brachial",
+    "serie_slug": "brachial",
+    "name": "Forged Brachial Diamant-Wetzstahl",
+    "bild_lokal": "img/forged/forged-brachial-bruintaanzet.jpg",
+    "bild_url": "https://styledevie.nl/content/products/bruintaanzet.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Brachial",
+    "serie_slug": "brachial",
+    "name": "Forged Brachial Tranchiergabel",
+    "bild_lokal": "img/forged/forged-brachial-bruinttranchvork.jpg",
+    "bild_url": "https://styledevie.nl/content/products/bruinttranchvork.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Intense",
+    "serie_slug": "intense",
+    "name": "Forged Intense 3-teiliges Küchenmesserset",
+    "bild_lokal": "img/forged/forged-intense-intense3comb.jpg",
+    "bild_url": "https://styledevie.nl/content/products/intense3comb.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Intense",
+    "serie_slug": "intense",
+    "name": "Forged Intense Ausbeinmesser",
+    "bild_lokal": "img/forged/forged-intense-intuitbeen.jpg",
+    "bild_url": "https://styledevie.nl/content/products/intuitbeen.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Intense",
+    "serie_slug": "intense",
+    "name": "Forged Intense Brotmesser",
+    "bild_lokal": "img/forged/forged-intense-intbroodmes.jpg",
+    "bild_url": "https://styledevie.nl/content/products/intbroodmes.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Intense",
+    "serie_slug": "intense",
+    "name": "Forged Intense Tranchiermesser",
+    "bild_lokal": "img/forged/forged-intense-intvleesmes.jpg",
+    "bild_url": "https://styledevie.nl/content/products/intvleesmes.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Intense",
+    "serie_slug": "intense",
+    "name": "Forged Intense Hackbeil",
+    "bild_lokal": "img/forged/forged-intense-inthakbijl.jpg",
+    "bild_url": "https://styledevie.nl/content/products/inthakbijl.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Intense",
+    "serie_slug": "intense",
+    "name": "Forged Intense Kochmesser",
+    "bild_lokal": "img/forged/forged-intense-intkoksmes.jpg",
+    "bild_url": "https://styledevie.nl/content/products/intkoksmes.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Intense",
+    "serie_slug": "intense",
+    "name": "Forged Intense Kochmesser 16 cm",
+    "bild_lokal": "img/forged/forged-intense-intensekoks16cm.png",
+    "bild_url": "https://styledevie.nl/content/products/intensekoks16cm.png?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Intense",
+    "serie_slug": "intense",
+    "name": "Forged Intense Metzgermesser",
+    "bild_lokal": "img/forged/forged-intense-intbutcher.jpg",
+    "bild_url": "https://styledevie.nl/content/products/intbutcher.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Intense",
+    "serie_slug": "intense",
+    "name": "Forged Intense Santokumesser 14 cm",
+    "bild_lokal": "img/forged/forged-intense-intsant14cm.jpg",
+    "bild_url": "https://styledevie.nl/content/products/intsant14cm.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Intense",
+    "serie_slug": "intense",
+    "name": "Forged Intense Santokumesser 18 cm",
+    "bild_lokal": "img/forged/forged-intense-intsantoku18cm.jpg",
+    "bild_url": "https://styledevie.nl/content/products/intsantoku18cm.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Intense",
+    "serie_slug": "intense",
+    "name": "Forged Intense Schälmesser",
+    "bild_lokal": "img/forged/forged-intense-intschilmes.jpg",
+    "bild_url": "https://styledevie.nl/content/products/intschilmes.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Intense",
+    "serie_slug": "intense",
+    "name": "Forged Intense Steakmesser",
+    "bild_lokal": "img/forged/forged-intense-intsteakmes.jpg",
+    "bild_url": "https://styledevie.nl/content/products/intsteakmes.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Intense",
+    "serie_slug": "intense",
+    "name": "Forged Intense Universalmesser",
+    "bild_lokal": "img/forged/forged-intense-intunimes.jpg",
+    "bild_url": "https://styledevie.nl/content/products/intunimes.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Olive",
+    "serie_slug": "olive",
+    "name": "Forged Olive 3-teiliges Küchenmesserset",
+    "bild_lokal": "img/forged/forged-olive-olive3comb.jpg",
+    "bild_url": "https://styledevie.nl/content/products/olive3comb.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Olive",
+    "serie_slug": "olive",
+    "name": "Forged Olive Asiatisches Hackmesser",
+    "bild_lokal": "img/forged/forged-olive-olivecleaver.jpg",
+    "bild_url": "https://styledevie.nl/content/products/olivecleaver.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Olive",
+    "serie_slug": "olive",
+    "name": "Forged Olive Ausbeinmesser",
+    "bild_lokal": "img/forged/forged-olive-oliveuitbeen.jpg",
+    "bild_url": "https://styledevie.nl/content/products/oliveuitbeen.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Olive",
+    "serie_slug": "olive",
+    "name": "Forged Olive Brotmesser",
+    "bild_lokal": "img/forged/forged-olive-olivebrood.jpg",
+    "bild_url": "https://styledevie.nl/content/products/olivebrood.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Olive",
+    "serie_slug": "olive",
+    "name": "Forged Olive Diamant-Wetzstahl",
+    "bild_lokal": "img/forged/forged-olive-oliveaanzet.jpg",
+    "bild_url": "https://styledevie.nl/content/products/oliveaanzet.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Olive",
+    "serie_slug": "olive",
+    "name": "Forged Olive Fischfiletiermesser",
+    "bild_lokal": "img/forged/forged-olive-olivevisfileer.png",
+    "bild_url": "https://styledevie.nl/content/products/olivevisfileer.png?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Olive",
+    "serie_slug": "olive",
+    "name": "Forged Olive Tranchiermesser",
+    "bild_lokal": "img/forged/forged-olive-olivevlees.jpg",
+    "bild_url": "https://styledevie.nl/content/products/olivevlees.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Olive",
+    "serie_slug": "olive",
+    "name": "Forged Olive Hackbeil",
+    "bild_lokal": "img/forged/forged-olive-olivehakbijl.jpg",
+    "bild_url": "https://styledevie.nl/content/products/olivehakbijl.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Olive",
+    "serie_slug": "olive",
+    "name": "Forged Olive Kinderkochmesser",
+    "bild_lokal": "img/forged/forged-olive-olivekindkoks.png",
+    "bild_url": "https://styledevie.nl/content/products/olivekindkoks.png?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Olive",
+    "serie_slug": "olive",
+    "name": "Forged Olive Kochmesser",
+    "bild_lokal": "img/forged/forged-olive-olivekoksmes.jpg",
+    "bild_url": "https://styledevie.nl/content/products/olivekoksmes.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Olive",
+    "serie_slug": "olive",
+    "name": "Forged Olive Kochmesser 16 cm",
+    "bild_lokal": "img/forged/forged-olive-olivekoks16cm.png",
+    "bild_url": "https://styledevie.nl/content/products/olivekoks16cm.png?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Olive",
+    "serie_slug": "olive",
+    "name": "Forged Olive Metzgermesser",
+    "bild_lokal": "img/forged/forged-olive-olivebutcher.jpg",
+    "bild_url": "https://styledevie.nl/content/products/olivebutcher.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Olive",
+    "serie_slug": "olive",
+    "name": "Forged Olive Petty Messer 11 cm",
+    "bild_lokal": "img/forged/forged-olive-olivepetty11.jpg",
+    "bild_url": "https://styledevie.nl/content/products/olivepetty11.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Olive",
+    "serie_slug": "olive",
+    "name": "Forged Olive Santokumesser 14 cm",
+    "bild_lokal": "img/forged/forged-olive-olivesantoku14cm.jpg",
+    "bild_url": "https://styledevie.nl/content/products/olivesantoku14cm.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Olive",
+    "serie_slug": "olive",
+    "name": "Forged Olive Santokumesser 18 cm",
+    "bild_lokal": "img/forged/forged-olive-olivesantoku18cm.jpg",
+    "bild_url": "https://styledevie.nl/content/products/olivesantoku18cm.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Olive",
+    "serie_slug": "olive",
+    "name": "Forged Olive Schälmesser",
+    "bild_lokal": "img/forged/forged-olive-oliveschilmes.jpg",
+    "bild_url": "https://styledevie.nl/content/products/oliveschilmes.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Olive",
+    "serie_slug": "olive",
+    "name": "Forged Olive Steakmesser",
+    "bild_lokal": "img/forged/forged-olive-olivesteakmes.jpg",
+    "bild_url": "https://styledevie.nl/content/products/olivesteakmes.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Olive",
+    "serie_slug": "olive",
+    "name": "Forged Olive Steakmesser XXL",
+    "bild_lokal": "img/forged/forged-olive-olivesteakxxl.jpg",
+    "bild_url": "https://styledevie.nl/content/products/olivesteakxxl.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Olive",
+    "serie_slug": "olive",
+    "name": "Forged Olive Tranchiergabel",
+    "bild_lokal": "img/forged/forged-olive-olivetranchvork.jpg",
+    "bild_url": "https://styledevie.nl/content/products/olivetranchvork.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Olive",
+    "serie_slug": "olive",
+    "name": "Forged Olive Universalmesser",
+    "bild_lokal": "img/forged/forged-olive-oliveuni.jpg",
+    "bild_url": "https://styledevie.nl/content/products/oliveuni.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Olive",
+    "serie_slug": "olive",
+    "name": "Forged Olive Universalmesser gezahnt",
+    "bild_lokal": "img/forged/forged-olive-oliveuniser.jpg",
+    "bild_url": "https://styledevie.nl/content/products/oliveuniser.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Sebra",
+    "serie_slug": "sebra",
+    "name": "Forged Sebra 3-teiliges Küchenmesserset",
+    "bild_lokal": "img/forged/forged-sebra-sebra3comb.jpg",
+    "bild_url": "https://styledevie.nl/content/products/sebra3comb.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Sebra",
+    "serie_slug": "sebra",
+    "name": "Forged Sebra Asiatisches Hackmesser",
+    "bild_lokal": "img/forged/forged-sebra-sebracleaver.jpg",
+    "bild_url": "https://styledevie.nl/content/products/sebracleaver.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Sebra",
+    "serie_slug": "sebra",
+    "name": "Forged Sebra Ausbeinmesser",
+    "bild_lokal": "img/forged/forged-sebra-sebrauitbeen.jpg",
+    "bild_url": "https://styledevie.nl/content/products/sebrauitbeen.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Sebra",
+    "serie_slug": "sebra",
+    "name": "Forged Sebra Brotmesser",
+    "bild_lokal": "img/forged/forged-sebra-sebrabrood.jpg",
+    "bild_url": "https://styledevie.nl/content/products/sebrabrood.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Sebra",
+    "serie_slug": "sebra",
+    "name": "Forged Sebra Diamant-Wetzstahl",
+    "bild_lokal": "img/forged/forged-sebra-sebraaanzet.jpg",
+    "bild_url": "https://styledevie.nl/content/products/sebraaanzet.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Sebra",
+    "serie_slug": "sebra",
+    "name": "Forged Sebra Tranchiermesser",
+    "bild_lokal": "img/forged/forged-sebra-sebravlees.jpg",
+    "bild_url": "https://styledevie.nl/content/products/sebravlees.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Sebra",
+    "serie_slug": "sebra",
+    "name": "Forged Sebra Hackbeil",
+    "bild_lokal": "img/forged/forged-sebra-sebrahakbijl.jpg",
+    "bild_url": "https://styledevie.nl/content/products/sebrahakbijl.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Sebra",
+    "serie_slug": "sebra",
+    "name": "Forged Sebra Kochmesser",
+    "bild_lokal": "img/forged/forged-sebra-sebrakoksmes.jpg",
+    "bild_url": "https://styledevie.nl/content/products/sebrakoksmes.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Sebra",
+    "serie_slug": "sebra",
+    "name": "Forged Sebra Kochmesser 16 cm",
+    "bild_lokal": "img/forged/forged-sebra-sebrakoks16cm.png",
+    "bild_url": "https://styledevie.nl/content/products/sebrakoks16cm.png?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Sebra",
+    "serie_slug": "sebra",
+    "name": "Forged Sebra Metzgermesser",
+    "bild_lokal": "img/forged/forged-sebra-sebrabutcher.jpg",
+    "bild_url": "https://styledevie.nl/content/products/sebrabutcher.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Sebra",
+    "serie_slug": "sebra",
+    "name": "Forged Sebra Santokumesser 14 cm",
+    "bild_lokal": "img/forged/forged-sebra-sebrasantoku14cm.jpg",
+    "bild_url": "https://styledevie.nl/content/products/sebrasantoku14cm.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Sebra",
+    "serie_slug": "sebra",
+    "name": "Forged Sebra Santokumesser 18 cm",
+    "bild_lokal": "img/forged/forged-sebra-sebrasantoku18cm.jpg",
+    "bild_url": "https://styledevie.nl/content/products/sebrasantoku18cm.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Sebra",
+    "serie_slug": "sebra",
+    "name": "Forged Sebra Schälmesser",
+    "bild_lokal": "img/forged/forged-sebra-sebraschil.jpg",
+    "bild_url": "https://styledevie.nl/content/products/sebraschil.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Sebra",
+    "serie_slug": "sebra",
+    "name": "Forged Sebra Steakmesser",
+    "bild_lokal": "img/forged/forged-sebra-sebrasteakmes.jpg",
+    "bild_url": "https://styledevie.nl/content/products/sebrasteakmes.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Sebra",
+    "serie_slug": "sebra",
+    "name": "Forged Sebra Tranchiergabel",
+    "bild_lokal": "img/forged/forged-sebra-sebratranchvork.jpg",
+    "bild_url": "https://styledevie.nl/content/products/sebratranchvork.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Sebra",
+    "serie_slug": "sebra",
+    "name": "Forged Sebra Universalmesser",
+    "bild_lokal": "img/forged/forged-sebra-sebrauni.jpg",
+    "bild_url": "https://styledevie.nl/content/products/sebrauni.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "VG10",
+    "serie_slug": "vg10",
+    "name": "Forged VG10 Ausbeinmesser",
+    "bild_lokal": "img/forged/forged-vg10-vg10uitbeen.jpg",
+    "bild_url": "https://styledevie.nl/content/products/vg10uitbeen.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "VG10",
+    "serie_slug": "vg10",
+    "name": "Forged VG10 Brotmesser",
+    "bild_lokal": "img/forged/forged-vg10-vg10brood.jpg",
+    "bild_url": "https://styledevie.nl/content/products/vg10brood.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "VG10",
+    "serie_slug": "vg10",
+    "name": "Forged VG10 Bunka Messerset mit Lederetui",
+    "bild_lokal": "img/forged/forged-vg10-vg10bunkagift.jpg",
+    "bild_url": "https://styledevie.nl/content/products/vg10bunkagift.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "VG10",
+    "serie_slug": "vg10",
+    "name": "Forged VG10 Fischfiletiermesser",
+    "bild_lokal": "img/forged/forged-vg10-vg10visfileer.jpg",
+    "bild_url": "https://styledevie.nl/content/products/vg10visfileer.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "VG10",
+    "serie_slug": "vg10",
+    "name": "Forged VG10 Tranchiermesser",
+    "bild_lokal": "img/forged/forged-vg10-vg10vlees.jpg",
+    "bild_url": "https://styledevie.nl/content/products/vg10vlees.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "VG10",
+    "serie_slug": "vg10",
+    "name": "Forged VG10 Hackbeil",
+    "bild_lokal": "img/forged/forged-vg10-vg10hakbijl.jpg",
+    "bild_url": "https://styledevie.nl/content/products/vg10hakbijl.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "VG10",
+    "serie_slug": "vg10",
+    "name": "Forged VG10 Kochmesser",
+    "bild_lokal": "img/forged/forged-vg10-vg10koksmes.jpg",
+    "bild_url": "https://styledevie.nl/content/products/vg10koksmes.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "VG10",
+    "serie_slug": "vg10",
+    "name": "Forged VG10 Kochmesser mit Lederetui",
+    "bild_lokal": "img/forged/forged-vg10-vg10koksleer.jpg",
+    "bild_url": "https://styledevie.nl/content/products/vg10koksleer.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "VG10",
+    "serie_slug": "vg10",
+    "name": "Forged VG10 Kochmesser 16 cm",
+    "bild_lokal": "img/forged/forged-vg10-vg10koks16cm.png",
+    "bild_url": "https://styledevie.nl/content/products/vg10koks16cm.png?width=800&height=800&background=white"
+  },
+  {
+    "serie": "VG10",
+    "serie_slug": "vg10",
+    "name": "Forged VG10 Metzgermesser",
+    "bild_lokal": "img/forged/forged-vg10-vg10butcher.jpg",
+    "bild_url": "https://styledevie.nl/content/products/vg10butcher.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "VG10",
+    "serie_slug": "vg10",
+    "name": "Forged VG10 Santokumesser 14 cm",
+    "bild_lokal": "img/forged/forged-vg10-vg10sant14.jpg",
+    "bild_url": "https://styledevie.nl/content/products/vg10sant14.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "VG10",
+    "serie_slug": "vg10",
+    "name": "Forged VG10 Santokumesser 18 cm",
+    "bild_lokal": "img/forged/forged-vg10-vg10sant18.jpg",
+    "bild_url": "https://styledevie.nl/content/products/vg10sant18.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "VG10",
+    "serie_slug": "vg10",
+    "name": "Forged VG10 Universalmesser",
+    "bild_lokal": "img/forged/forged-vg10-vg10uni.jpg",
+    "bild_url": "https://styledevie.nl/content/products/vg10uni.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "VG10",
+    "serie_slug": "vg10",
+    "name": "Forged VG10 Universalmesser gezahnt",
+    "bild_lokal": "img/forged/forged-vg10-vg10uniser.jpg",
+    "bild_url": "https://styledevie.nl/content/products/vg10uniser.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "VG10",
+    "serie_slug": "vg10",
+    "name": "Forged VG10 Diamant-Wetzstahl",
+    "bild_lokal": "img/forged/forged-vg10-vg10aanzet.jpg",
+    "bild_url": "https://styledevie.nl/content/products/vg10aanzet.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Katai",
+    "serie_slug": "katai",
+    "name": "Forged Katai Ausbeinmesser",
+    "bild_lokal": "img/forged/forged-katai-katuitbeen.jpg",
+    "bild_url": "https://styledevie.nl/content/products/katuitbeen.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Katai",
+    "serie_slug": "katai",
+    "name": "Forged Katai Brotmesser",
+    "bild_lokal": "img/forged/forged-katai-katbrood.jpg",
+    "bild_url": "https://styledevie.nl/content/products/katbrood.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Katai",
+    "serie_slug": "katai",
+    "name": "Forged Katai Tranchiermesser",
+    "bild_lokal": "img/forged/forged-katai-katvlees.jpg",
+    "bild_url": "https://styledevie.nl/content/products/katvlees.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Katai",
+    "serie_slug": "katai",
+    "name": "Forged Katai Kochmesser",
+    "bild_lokal": "img/forged/forged-katai-katkoksmes.jpg",
+    "bild_url": "https://styledevie.nl/content/products/katkoksmes.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Katai",
+    "serie_slug": "katai",
+    "name": "Forged Katai Kochmesser 16 cm",
+    "bild_lokal": "img/forged/forged-katai-kataikoks16cm.png",
+    "bild_url": "https://styledevie.nl/content/products/kataikoks16cm.png?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Katai",
+    "serie_slug": "katai",
+    "name": "Forged Katai Metzgermesser",
+    "bild_lokal": "img/forged/forged-katai-katbutcher.jpg",
+    "bild_url": "https://styledevie.nl/content/products/katbutcher.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Katai",
+    "serie_slug": "katai",
+    "name": "Forged Katai Santokumesser 14 cm",
+    "bild_lokal": "img/forged/forged-katai-katsant14cm.jpg",
+    "bild_url": "https://styledevie.nl/content/products/katsant14cm.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Katai",
+    "serie_slug": "katai",
+    "name": "Forged Katai Santokumesser 18 cm",
+    "bild_lokal": "img/forged/forged-katai-katsant18cm.jpg",
+    "bild_url": "https://styledevie.nl/content/products/katsant18cm.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Katai",
+    "serie_slug": "katai",
+    "name": "Forged Katai Universalmesser",
+    "bild_lokal": "img/forged/forged-katai-katuni.jpg",
+    "bild_url": "https://styledevie.nl/content/products/katuni.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Katai",
+    "serie_slug": "katai",
+    "name": "Forged Katai Diamant-Wetzstahl",
+    "bild_lokal": "img/forged/forged-katai-kataanzet.jpg",
+    "bild_url": "https://styledevie.nl/content/products/kataanzet.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "BBQ",
+    "serie_slug": "bbq",
+    "name": "Forged BBQ Gripperzange XL",
+    "bild_lokal": "img/forged/forged-bbq-oltongsxl.png",
+    "bild_url": "https://styledevie.nl/content/products/oltongsxl.png?width=800&height=800&background=white"
+  },
+  {
+    "serie": "BBQ",
+    "serie_slug": "bbq",
+    "name": "Forged BBQ Plancha-Spatel",
+    "bild_lokal": "img/forged/forged-bbq-olplanchaspat.png",
+    "bild_url": "https://styledevie.nl/content/products/olplanchaspat.png?width=800&height=800&background=white"
+  },
+  {
+    "serie": "BBQ",
+    "serie_slug": "bbq",
+    "name": "Forged BBQ Spachtel XL",
+    "bild_lokal": "img/forged/forged-bbq-olspat.png",
+    "bild_url": "https://styledevie.nl/content/products/olspat.png?width=800&height=800&background=white"
+  },
+  {
+    "serie": "BBQ",
+    "serie_slug": "bbq",
+    "name": "Forged Flambadou",
+    "bild_lokal": "img/forged/forged-bbq-olflambadou.jpg",
+    "bild_url": "https://styledevie.nl/content/products/olflambadou.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Churrasco",
+    "serie_slug": "churrasco",
+    "name": "Forged Churrasco 4 Greifzangen",
+    "bild_lokal": "img/forged/forged-churrasco-chur4tongs.jpg",
+    "bild_url": "https://styledevie.nl/content/products/chur4tongs.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Churrasco",
+    "serie_slug": "churrasco",
+    "name": "Forged Churrasco Gabelspieß 50 cm",
+    "bild_lokal": "img/forged/forged-churrasco-olskewf50.jpg",
+    "bild_url": "https://styledevie.nl/content/products/olskewf50.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Churrasco",
+    "serie_slug": "churrasco",
+    "name": "Forged Churrasco Gabelspieß 60 cm",
+    "bild_lokal": "img/forged/forged-churrasco-olskewf60.jpg",
+    "bild_url": "https://styledevie.nl/content/products/olskewf60.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Churrasco",
+    "serie_slug": "churrasco",
+    "name": "Forged Churrasco Gabelspieß 70 cm",
+    "bild_lokal": "img/forged/forged-churrasco-olskewf70.jpg",
+    "bild_url": "https://styledevie.nl/content/products/olskewf70.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Churrasco",
+    "serie_slug": "churrasco",
+    "name": "Forged Churrasco Spieß V-Form 50 cm",
+    "bild_lokal": "img/forged/forged-churrasco-olskewv50.jpg",
+    "bild_url": "https://styledevie.nl/content/products/olskewv50.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Churrasco",
+    "serie_slug": "churrasco",
+    "name": "Forged Churrasco Spieß V-Form 60 cm",
+    "bild_lokal": "img/forged/forged-churrasco-olskewv60.jpg",
+    "bild_url": "https://styledevie.nl/content/products/olskewv60.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Churrasco",
+    "serie_slug": "churrasco",
+    "name": "Forged Churrasco Spieß V-Form 70 cm",
+    "bild_lokal": "img/forged/forged-churrasco-olskewv70.jpg",
+    "bild_url": "https://styledevie.nl/content/products/olskewv70.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Churrasco",
+    "serie_slug": "churrasco",
+    "name": "Forged Churrasco Servierpfanne",
+    "bild_lokal": "img/forged/forged-churrasco-olserver.jpg",
+    "bild_url": "https://styledevie.nl/content/products/olserver.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Essentials",
+    "serie_slug": "essentials",
+    "name": "Forged Bratpfanne 24 cm",
+    "bild_lokal": "img/forged/forged-essentials-esfrypan1h24.jpg",
+    "bild_url": "https://styledevie.nl/content/products/esfrypan1h24.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Essentials",
+    "serie_slug": "essentials",
+    "name": "Forged Bratpfanne 28 cm",
+    "bild_lokal": "img/forged/forged-essentials-esfrypan1h28.jpg",
+    "bild_url": "https://styledevie.nl/content/products/esfrypan1h28.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Essentials",
+    "serie_slug": "essentials",
+    "name": "Forged Bratpfanne 20 cm",
+    "bild_lokal": "img/forged/forged-essentials-esfrypan1h20.jpg",
+    "bild_url": "https://styledevie.nl/content/products/esfrypan1h20.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Essentials",
+    "serie_slug": "essentials",
+    "name": "Forged Bratpfanne mit 2 Griffen 20 cm",
+    "bild_lokal": "img/forged/forged-essentials-esfrypan2h20.jpg",
+    "bild_url": "https://styledevie.nl/content/products/esfrypan2h20.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Essentials",
+    "serie_slug": "essentials",
+    "name": "Forged Bratpfanne mit 2 Griffen 24 cm",
+    "bild_lokal": "img/forged/forged-essentials-esfrypan2h24.png",
+    "bild_url": "https://styledevie.nl/content/products/esfrypan2h24.png?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Essentials",
+    "serie_slug": "essentials",
+    "name": "Forged Bratpfanne mit 2 Griffen 28 cm",
+    "bild_lokal": "img/forged/forged-essentials-esfrypan2h28.png",
+    "bild_url": "https://styledevie.nl/content/products/esfrypan2h28.png?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Essentials",
+    "serie_slug": "essentials",
+    "name": "Forged Ledertasche Braun",
+    "bild_lokal": "img/forged/forged-essentials-eskniferoll8brown.png",
+    "bild_url": "https://styledevie.nl/content/products/eskniferoll8brown.png?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Essentials",
+    "serie_slug": "essentials",
+    "name": "Forged Magnetischer Messerblock rotierend",
+    "bild_lokal": "img/forged/forged-essentials-esmagnblolive.jpg",
+    "bild_url": "https://styledevie.nl/content/products/esmagnblolive.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Essentials",
+    "serie_slug": "essentials",
+    "name": "Forged Pflegeset",
+    "bild_lokal": "img/forged/forged-essentials-esmaintkit.png",
+    "bild_url": "https://styledevie.nl/content/products/esmaintkit.png?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Essentials",
+    "serie_slug": "essentials",
+    "name": "Forged Schneidebrett Natur Large",
+    "bild_lokal": "img/forged/forged-essentials-escutbrdnatl.jpg",
+    "bild_url": "https://styledevie.nl/content/products/escutbrdnatl.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Essentials",
+    "serie_slug": "essentials",
+    "name": "Forged Schneidebrett Natur Medium",
+    "bild_lokal": "img/forged/forged-essentials-escutbrdnatm.jpg",
+    "bild_url": "https://styledevie.nl/content/products/escutbrdnatm.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Essentials",
+    "serie_slug": "essentials",
+    "name": "Forged Lederetui Kochmesser",
+    "bild_lokal": "img/forged/forged-essentials-leer1koksmes.jpg",
+    "bild_url": "https://styledevie.nl/content/products/leer1koksmes.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Essentials",
+    "serie_slug": "essentials",
+    "name": "Forged Lederetui Kochmesser 16 cm",
+    "bild_lokal": "img/forged/forged-essentials-leer1koks16cm.jpg",
+    "bild_url": "https://styledevie.nl/content/products/leer1koks16cm.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Essentials",
+    "serie_slug": "essentials",
+    "name": "Forged Lederetui Santokumesser 14 cm",
+    "bild_lokal": "img/forged/forged-essentials-leer1sant14.jpg",
+    "bild_url": "https://styledevie.nl/content/products/leer1sant14.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Essentials",
+    "serie_slug": "essentials",
+    "name": "Forged Lederetui Santokumesser 18 cm",
+    "bild_lokal": "img/forged/forged-essentials-leer1sant18.jpg",
+    "bild_url": "https://styledevie.nl/content/products/leer1sant18.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Essentials",
+    "serie_slug": "essentials",
+    "name": "Forged Lederetui Ausbeinmesser",
+    "bild_lokal": "img/forged/forged-essentials-leer1uitbeen.jpg",
+    "bild_url": "https://styledevie.nl/content/products/leer1uitbeen.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Essentials",
+    "serie_slug": "essentials",
+    "name": "Forged Lederetui Brotmesser",
+    "bild_lokal": "img/forged/forged-essentials-leer1brood.jpg",
+    "bild_url": "https://styledevie.nl/content/products/leer1brood.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Essentials",
+    "serie_slug": "essentials",
+    "name": "Forged Lederetui Tranchiermesser",
+    "bild_lokal": "img/forged/forged-essentials-leer1vlees.jpg",
+    "bild_url": "https://styledevie.nl/content/products/leer1vlees.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Essentials",
+    "serie_slug": "essentials",
+    "name": "Forged Lederetui Metzgermesser",
+    "bild_lokal": "img/forged/forged-essentials-leer1butcher.jpg",
+    "bild_url": "https://styledevie.nl/content/products/leer1butcher.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Essentials",
+    "serie_slug": "essentials",
+    "name": "Forged Lederetui Hackbeil",
+    "bild_lokal": "img/forged/forged-essentials-leer1hakbijl.jpg",
+    "bild_url": "https://styledevie.nl/content/products/leer1hakbijl.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Essentials",
+    "serie_slug": "essentials",
+    "name": "Forged Lederetui Fischfiletiermesser",
+    "bild_lokal": "img/forged/forged-essentials-leer1visfileer.png",
+    "bild_url": "https://styledevie.nl/content/products/leer1visfileer.png?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Essentials",
+    "serie_slug": "essentials",
+    "name": "Forged Lederetui Asiatisches Hackmesser",
+    "bild_lokal": "img/forged/forged-essentials-leer1cleaver.jpg",
+    "bild_url": "https://styledevie.nl/content/products/leer1cleaver.jpg?width=800&height=800&background=white"
+  },
+  {
+    "serie": "Essentials",
+    "serie_slug": "essentials",
+    "name": "Forged Lederetui Universalmesser",
+    "bild_lokal": "img/forged/forged-essentials-leer1uni.jpg",
+    "bild_url": "https://styledevie.nl/content/products/leer1uni.jpg?width=800&height=800&background=white"
+  }
+]

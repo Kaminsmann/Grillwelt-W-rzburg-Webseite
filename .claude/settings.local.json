@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.montargo.de)",
+      "WebFetch(domain:theoldcom.eu)",
+      "WebFetch(domain:feuerhaus-kalina.de)",
+      "WebFetch(domain:treppensanierung-mainfranken.de)",
+      "WebFetch(domain:www.kamadojoe.com)",
+      "Bash(curl -s \"https://www.kamadojoe.com/collections/classic-joe-big-joe-grills\")",
+      "Bash(curl -s \"https://www.xapron.com/nl\")",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36\" \"https://www.kamadojoe.com/collections/classic-joe-big-joe-grills\")",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36\" \"https://www.grandhall.eu\")",
+      "Bash(curl -s -A \"Mozilla/5.0\" \"https://www.zayiko.com\")",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 Chrome/120\" \"https://www.kamadojoe.com/products/classic-joe-iii\")",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 Chrome/120\" \"https://www.masterbuilt.com/products/gravity-series-800-digital-charcoal-griddle-grill-smoker\")",
+      "Bash(curl -s -A \"Mozilla/5.0\" \"https://www.montargo.de/de/ehb/\")",
+      "Bash(curl -s \"https://www.kamadojoe.com/products/classic-joe-iii.json\")",
+      "Bash(python3 -c \":*)",
+      "Bash(curl -s \"https://www.kamadojoe.com/products/big-joe-iii.json\")",
+      "WebFetch(domain:www.xapron.com)",
+      "WebFetch(domain:xapron.nl)",
+      "WebFetch(domain:lemaitreproducts.com)",
+      "Bash(grep -v \"^$\")",
+      "Bash(xargs grep:*)",
+      "Bash(python download-images.py)",
+      "WebFetch(domain:forged.nl)",
+      "Bash(python scrape-forged.py --dry-run)",
+      "Bash(python scrape-forged.py --html)",
+      "WebFetch(domain:styledevie.nl)",
+      "Bash(python scrape-forged.py)",
+      "Bash(python scrape-styledevie.py)",
+      "WebFetch(domain:www.oleio.de)",
+      "Bash(python scrape-zayiko.py)"
+    ]
+  }
+}

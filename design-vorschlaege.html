@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grillwelt Feuerhaus Kalina – Designvorschläge</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    /* =============================================
+       GLOBAL RESET & VARS
+    ============================================= */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --rot:       #9B2429;
+      --rot-light: #b8383e;
+      --anthrazit: #1e1e1e;
+      --grau-dark: #2c2c2c;
+      --grau-mid:  #5a5a5a;
+      --grau-light:#e8e5e0;
+      --weiss:     #ffffff;
+      --creme:     #f7f4ef;
+    }
+
+    body { font-family: 'Inter', sans-serif; background: #111; }
+
+    /* =============================================
+       DESIGN SWITCHER
+    ============================================= */
+    .switcher {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 1000;
+      background: #111;
+      border-bottom: 1px solid #333;
+      display: flex;
+      align-items: center;
+      gap: 0;
+      padding: 0 24px;
+      height: 52px;
+    }
+    .switcher-label {
+      color: #888;
+      font-size: 11px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      margin-right: 20px;
+      white-space: nowrap;
+    }
+    .switcher button {
+      background: none;
+      border: none;
+      color: #666;
+      font-family: 'Inter', sans-serif;
+      font-size: 12px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      cursor: pointer;
+      padding: 0 20px;
+      height: 52px;
+      border-bottom: 2px solid transparent;
+      transition: all .2s;
+    }
+    .switcher button:hover { color: #fff; }
+    .switcher button.active { color: var(--rot); border-bottom-color: var(--rot); }
+    .switcher-note {
+      margin-left: auto;
+      color: #444;
+      font-size: 11px;
+    }
+
+    /* =============================================
+       DESIGN PANELS
+    ============================================= */
+    .design { display: none; padding-top: 52px; }
+    .design.active { display: block; }
+
+
+    /* ============================================================
+       VARIANTE A – DUNKEL & DRAMATISCH
+    ============================================================ */
+    .a-nav {
+      background: var(--anthrazit);
+      border-bottom: 1px solid #333;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 48px;
+      height: 72px;
+      position: sticky;
+      top: 52px;
+      z-index: 100;
+    }
+    .a-logo { color: var(--weiss); font-family: 'Playfair Display', serif; font-size: 18px; letter-spacing: .04em; }
+    .a-logo span { color: var(--rot); }
+    .a-nav-links { display: flex; gap: 32px; list-style: none; }
+    .a-nav-links a { color: #aaa; text-decoration: none; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; transition: color .2s; }
+    .a-nav-links a:hover { color: var(--weiss); }
+    .a-nav-cta { background: var(--rot); color: var(--weiss); border: none; padding: 11px 24px; font-family: 'Inter', sans-serif; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; cursor: pointer; transition: background .2s; }
+    .a-nav-cta:hover { background: var(--rot-light); }
+
+    .a-hero {
+      background: var(--anthrazit);
+      min-height: 88vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      position: relative;
+      overflow: hidden;
+    }
+    .a-hero-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 80px 80px 80px 80px;
+      position: relative;
+      z-index: 2;
+    }
+    .a-hero-eyebrow {
+      color: var(--rot);
+      font-size: 11px;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+    .a-hero-h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(42px, 4.5vw, 68px);
+      color: var(--weiss);
+      line-height: 1.1;
+      margin-bottom: 28px;
+    }
+    .a-hero-h1 em { color: var(--rot); font-style: normal; }
+    .a-hero-sub {
+      color: #999;
+      font-size: 16px;
+      line-height: 1.7;
+      max-width: 440px;
+      margin-bottom: 48px;
+      font-weight: 300;
+    }
+    .a-btn-primary {
+      display: inline-block;
+      background: var(--rot);
+      color: var(--weiss);
+      padding: 16px 36px;
+      font-size: 13px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: background .2s;
+      margin-right: 16px;
+    }
+    .a-btn-primary:hover { background: var(--rot-light); }
+    .a-btn-ghost {
+      display: inline-block;
+      border: 1px solid #555;
+      color: #bbb;
+      padding: 15px 32px;
+      font-size: 13px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: all .2s;
+    }
+    .a-btn-ghost:hover { border-color: #aaa; color: var(--weiss); }
+    .a-hero-image {
+      background: var(--grau-dark);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    .a-img-placeholder {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 50%, #222 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #444;
+      font-size: 13px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      gap: 12px;
+    }
+    .a-img-placeholder svg { opacity: .3; }
+    .a-hero-bar {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0,0,0,.6);
+      backdrop-filter: blur(12px);
+      display: flex;
+      justify-content: center;
+      gap: 0;
+      grid-column: 1 / -1;
+    }
+    .a-hero-stat {
+      padding: 24px 48px;
+      border-right: 1px solid #333;
+      text-align: center;
+    }
+    .a-hero-stat:last-child { border-right: none; }
+    .a-hero-stat-num { color: var(--weiss); font-family: 'Playfair Display', serif; font-size: 28px; }
+    .a-hero-stat-label { color: #666; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; margin-top: 4px; }
+
+    .a-brands {
+      background: #161616;
+      padding: 64px 80px;
+      border-top: 1px solid #2a2a2a;
+    }
+    .a-brands-label { color: #555; font-size: 11px; letter-spacing: .2em; text-transform: uppercase; text-align: center; margin-bottom: 40px; }
+    .a-brands-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px 40px;
+    }
+    .a-brand-chip {
+      color: #666;
+      font-size: 12px;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      padding: 8px 20px;
+      border: 1px solid #333;
+      transition: all .2s;
+      cursor: default;
+    }
+    .a-brand-chip:hover { color: var(--weiss); border-color: var(--rot); }
+
+    .a-categories {
+      background: var(--anthrazit);
+      padding: 100px 80px;
+    }
+    .a-section-title {
+      font-family: 'Playfair Display', serif;
+      color: var(--weiss);
+      font-size: 36px;
+      margin-bottom: 12px;
+    }
+    .a-section-sub { color: #666; font-size: 14px; letter-spacing: .05em; margin-bottom: 56px; max-width: 480px; line-height: 1.6; }
+    .a-cats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2px;
+    }
+    .a-cat {
+      background: var(--grau-dark);
+      aspect-ratio: 3/4;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 32px;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform .3s;
+    }
+    .a-cat:hover { transform: scale(1.01); z-index: 2; }
+    .a-cat::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,.8) 0%, transparent 50%);
+    }
+    .a-cat-nr { position: absolute; top: 24px; right: 24px; color: var(--rot); font-size: 11px; letter-spacing: .2em; }
+    .a-cat-title { color: var(--weiss); font-family: 'Playfair Display', serif; font-size: 20px; position: relative; z-index: 1; margin-bottom: 6px; }
+    .a-cat-desc { color: #aaa; font-size: 12px; position: relative; z-index: 1; letter-spacing: .05em; }
+
+    .a-cta {
+      background: var(--rot);
+      padding: 80px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 40px;
+    }
+    .a-cta-title { font-family: 'Playfair Display', serif; color: var(--weiss); font-size: 32px; }
+    .a-cta-sub { color: rgba(255,255,255,.75); font-size: 15px; margin-top: 8px; }
+    .a-cta-btn { background: var(--weiss); color: var(--rot); padding: 18px 40px; font-size: 13px; letter-spacing: .1em; text-transform: uppercase; border: none; cursor: pointer; font-family: 'Inter', sans-serif; font-weight: 600; white-space: nowrap; }
+
+
+    /* ============================================================
+       VARIANTE B – HELL & EDITORIAL
+    ============================================================ */
+    .b-nav {
+      background: var(--weiss);
+      border-bottom: 1px solid #e5e0d8;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 64px;
+      height: 80px;
+      position: sticky;
+      top: 52px;
+      z-index: 100;
+    }
+    .b-logo { font-family: 'Playfair Display', serif; font-size: 20px; color: var(--anthrazit); letter-spacing: .02em; }
+    .b-logo span { color: var(--rot); }
+    .b-nav-links { display: flex; gap: 36px; list-style: none; }
+    .b-nav-links a { color: var(--grau-mid); text-decoration: none; font-size: 13px; letter-spacing: .06em; transition: color .2s; }
+    .b-nav-links a:hover { color: var(--anthrazit); }
+    .b-nav-right { display: flex; align-items: center; gap: 24px; }
+    .b-nav-tel { color: var(--grau-mid); font-size: 13px; }
+    .b-nav-cta { background: var(--anthrazit); color: var(--weiss); padding: 12px 28px; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; border: none; cursor: pointer; font-family: 'Inter', sans-serif; transition: background .2s; }
+    .b-nav-cta:hover { background: var(--rot); }
+
+    .b-hero {
+      background: var(--creme);
+      min-height: 85vh;
+      display: grid;
+      grid-template-columns: 5fr 4fr;
+    }
+    .b-hero-image {
+      order: 1;
+      background: var(--grau-light);
+      position: relative;
+    }
+    .b-hero-image-inner {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(160deg, #ddd8d0 0%, #c8c2b8 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #aaa;
+      font-size: 12px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      gap: 12px;
+      min-height: 85vh;
+    }
+    .b-hero-text {
+      order: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 80px 72px 80px 64px;
+    }
+    .b-hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--rot);
+      font-size: 11px;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      margin-bottom: 32px;
+    }
+    .b-hero-eyebrow::before {
+      content: '';
+      display: block;
+      width: 32px;
+      height: 1px;
+      background: var(--rot);
+    }
+    .b-hero-h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(36px, 3.5vw, 54px);
+      color: var(--anthrazit);
+      line-height: 1.15;
+      margin-bottom: 28px;
+    }
+    .b-divider { width: 48px; height: 2px; background: var(--rot); margin-bottom: 28px; }
+    .b-hero-sub {
+      color: var(--grau-mid);
+      font-size: 16px;
+      line-height: 1.75;
+      margin-bottom: 48px;
+      font-weight: 300;
+    }
+    .b-btn-primary {
+      display: inline-block;
+      background: var(--anthrazit);
+      color: var(--weiss);
+      padding: 16px 36px;
+      font-size: 12px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: background .2s;
+      margin-bottom: 16px;
+    }
+    .b-btn-primary:hover { background: var(--rot); }
+    .b-btn-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--grau-mid);
+      font-size: 13px;
+      letter-spacing: .06em;
+      text-decoration: none;
+      transition: color .2s;
+      margin-left: 24px;
+    }
+    .b-btn-link:hover { color: var(--rot); }
+
+    .b-trust-bar {
+      background: var(--weiss);
+      border-top: 1px solid #e5e0d8;
+      border-bottom: 1px solid #e5e0d8;
+      display: flex;
+      justify-content: center;
+    }
+    .b-trust-item {
+      padding: 28px 56px;
+      border-right: 1px solid #e5e0d8;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .b-trust-item:last-child { border-right: none; }
+    .b-trust-icon { color: var(--rot); font-size: 20px; }
+    .b-trust-text { color: var(--anthrazit); font-size: 13px; font-weight: 500; }
+    .b-trust-sub { color: var(--grau-mid); font-size: 11px; margin-top: 2px; }
+
+    .b-categories {
+      background: var(--weiss);
+      padding: 100px 80px;
+    }
+    .b-section-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 56px; }
+    .b-section-title { font-family: 'Playfair Display', serif; color: var(--anthrazit); font-size: 36px; }
+    .b-section-title-sub { color: var(--grau-mid); font-size: 14px; margin-top: 8px; }
+    .b-section-link { color: var(--rot); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; text-decoration: none; }
+    .b-cats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    .b-cat {
+      background: var(--creme);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      overflow: hidden;
+      transition: box-shadow .3s;
+    }
+    .b-cat:hover { box-shadow: 0 8px 32px rgba(0,0,0,.08); }
+    .b-cat-img {
+      background: var(--grau-light);
+      min-height: 240px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #bbb;
+      font-size: 11px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+    .b-cat-body { padding: 36px 32px; display: flex; flex-direction: column; justify-content: space-between; }
+    .b-cat-tag { color: var(--rot); font-size: 10px; letter-spacing: .2em; text-transform: uppercase; margin-bottom: 12px; }
+    .b-cat-title { font-family: 'Playfair Display', serif; color: var(--anthrazit); font-size: 22px; margin-bottom: 12px; }
+    .b-cat-desc { color: var(--grau-mid); font-size: 13px; line-height: 1.6; flex: 1; }
+    .b-cat-link { display: inline-flex; align-items: center; gap: 8px; color: var(--anthrazit); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; text-decoration: none; margin-top: 24px; border-bottom: 1px solid var(--anthrazit); padding-bottom: 2px; transition: color .2s; }
+    .b-cat-link:hover { color: var(--rot); border-color: var(--rot); }
+
+    .b-brands {
+      background: var(--creme);
+      padding: 72px 80px;
+      border-top: 1px solid #e5e0d8;
+    }
+    .b-brands-label { color: var(--grau-mid); font-size: 11px; letter-spacing: .2em; text-transform: uppercase; text-align: center; margin-bottom: 40px; }
+    .b-brands-list { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0; }
+    .b-brand { padding: 18px 32px; color: var(--grau-mid); font-size: 13px; letter-spacing: .1em; border-right: 1px solid #d5cfc7; transition: color .2s; cursor: default; }
+    .b-brand:last-child { border-right: none; }
+    .b-brand:hover { color: var(--anthrazit); }
+
+    .b-cta {
+      background: var(--anthrazit);
+      padding: 100px 80px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+    .b-cta-title { font-family: 'Playfair Display', serif; color: var(--weiss); font-size: 38px; line-height: 1.2; }
+    .b-cta-title em { color: var(--rot); font-style: normal; }
+    .b-cta-body { color: #888; font-size: 15px; line-height: 1.7; margin-top: 16px; }
+    .b-cta-right { display: flex; flex-direction: column; gap: 16px; }
+    .b-cta-btn { background: var(--rot); color: var(--weiss); padding: 18px 40px; font-size: 13px; letter-spacing: .1em; text-transform: uppercase; border: none; cursor: pointer; font-family: 'Inter', sans-serif; transition: background .2s; text-align: center; }
+    .b-cta-btn:hover { background: var(--rot-light); }
+    .b-cta-btn-ghost { background: none; border: 1px solid #444; color: #aaa; padding: 17px 40px; font-size: 13px; letter-spacing: .1em; text-transform: uppercase; cursor: pointer; font-family: 'Inter', sans-serif; transition: all .2s; text-align: center; }
+    .b-cta-btn-ghost:hover { border-color: #888; color: var(--weiss); }
+    .b-cta-address { color: #555; font-size: 13px; line-height: 1.8; margin-top: 8px; }
+
+
+    /* ============================================================
+       VARIANTE C – SPLIT / ARCHITEKTONISCH
+    ============================================================ */
+    .c-nav {
+      background: var(--weiss);
+      display: flex;
+      align-items: stretch;
+      height: 68px;
+      border-bottom: 1px solid #eee;
+      position: sticky;
+      top: 52px;
+      z-index: 100;
+    }
+    .c-nav-brand {
+      background: var(--anthrazit);
+      display: flex;
+      align-items: center;
+      padding: 0 40px;
+      min-width: 260px;
+    }
+    .c-logo { font-family: 'Playfair Display', serif; color: var(--weiss); font-size: 17px; }
+    .c-logo span { color: var(--rot); }
+    .c-logo sub { font-family: 'Inter', sans-serif; font-size: 9px; letter-spacing: .2em; text-transform: uppercase; color: #888; display: block; margin-top: 2px; font-style: normal; }
+    .c-nav-links { display: flex; align-items: center; gap: 0; padding: 0 32px; flex: 1; }
+    .c-nav-links a { color: var(--grau-mid); text-decoration: none; font-size: 12px; letter-spacing: .07em; text-transform: uppercase; padding: 0 20px; height: 68px; display: flex; align-items: center; border-bottom: 2px solid transparent; transition: all .2s; }
+    .c-nav-links a:hover { color: var(--anthrazit); border-bottom-color: var(--rot); }
+    .c-nav-end { display: flex; align-items: center; gap: 0; margin-left: auto; }
+    .c-nav-tel { color: var(--grau-mid); font-size: 13px; padding: 0 24px; border-left: 1px solid #eee; height: 68px; display: flex; align-items: center; }
+    .c-nav-cta { background: var(--rot); color: var(--weiss); height: 68px; padding: 0 32px; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; border: none; cursor: pointer; font-family: 'Inter', sans-serif; transition: background .2s; }
+    .c-nav-cta:hover { background: var(--rot-light); }
+
+    .c-hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 86vh;
+    }
+    .c-hero-left {
+      background: var(--anthrazit);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 72px 64px;
+      position: relative;
+      overflow: hidden;
+    }
+    .c-hero-left::before {
+      content: '';
+      position: absolute;
+      top: 48px;
+      left: 64px;
+      width: 1px;
+      height: 120px;
+      background: var(--rot);
+    }
+    .c-hero-counter {
+      position: absolute;
+      top: 48px;
+      left: 80px;
+      color: #444;
+      font-size: 11px;
+      letter-spacing: .15em;
+    }
+    .c-hero-h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(44px, 4vw, 64px);
+      color: var(--weiss);
+      line-height: 1.1;
+      margin-bottom: 24px;
+    }
+    .c-hero-h1 strong { color: var(--rot); display: block; font-size: .65em; font-weight: 400; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 12px; font-family: 'Inter', sans-serif; }
+    .c-hero-desc { color: #888; font-size: 15px; line-height: 1.7; max-width: 400px; margin-bottom: 48px; }
+    .c-hero-btns { display: flex; gap: 12px; }
+    .c-btn-a { background: var(--rot); color: var(--weiss); padding: 15px 32px; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; border: none; cursor: pointer; font-family: 'Inter', sans-serif; transition: background .2s; }
+    .c-btn-a:hover { background: var(--rot-light); }
+    .c-btn-b { background: none; border: 1px solid #444; color: #aaa; padding: 14px 28px; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; cursor: pointer; font-family: 'Inter', sans-serif; transition: all .2s; }
+    .c-btn-b:hover { border-color: #888; color: var(--weiss); }
+
+    .c-hero-right {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+    }
+    .c-hero-img-main {
+      background: linear-gradient(135deg, #c8c2b8 0%, #b8b0a5 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #9a9088;
+      font-size: 12px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      gap: 10px;
+      flex-direction: column;
+    }
+    .c-hero-bottom {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .c-hero-img-sm {
+      background: #d5cfc7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #aaa;
+      font-size: 11px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      border-top: 2px solid var(--weiss);
+      border-left: 2px solid var(--weiss);
+      flex-direction: column;
+      gap: 8px;
+    }
+    .c-hero-img-sm:first-child { border-left: none; }
+
+    .c-strip {
+      background: var(--rot);
+      padding: 20px 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .c-strip-text { color: var(--weiss); font-size: 13px; letter-spacing: .06em; }
+    .c-strip-link { color: rgba(255,255,255,.75); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,.3); transition: color .2s; }
+    .c-strip-link:hover { color: var(--weiss); }
+
+    .c-categories {
+      background: var(--creme);
+      padding: 100px 0;
+    }
+    .c-cats-inner { padding: 0 80px; }
+    .c-section-header { margin-bottom: 56px; }
+    .c-section-num { color: var(--rot); font-size: 11px; letter-spacing: .2em; text-transform: uppercase; margin-bottom: 12px; }
+    .c-section-title { font-family: 'Playfair Display', serif; font-size: 38px; color: var(--anthrazit); }
+    .c-section-title span { color: var(--rot); }
+
+    .c-cats-list { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; border: 1px solid #e0dbd3; }
+    .c-cat {
+      padding: 40px 32px;
+      border-right: 1px solid #e0dbd3;
+      background: var(--weiss);
+      transition: background .25s;
+      cursor: pointer;
+    }
+    .c-cat:last-child { border-right: none; }
+    .c-cat:hover { background: var(--anthrazit); }
+    .c-cat:hover .c-cat-title { color: var(--weiss); }
+    .c-cat:hover .c-cat-desc { color: #888; }
+    .c-cat:hover .c-cat-num { color: var(--rot); }
+    .c-cat-num { font-family: 'Playfair Display', serif; font-size: 40px; color: #e0dbd3; margin-bottom: 20px; transition: color .25s; line-height: 1; }
+    .c-cat-title { font-family: 'Playfair Display', serif; color: var(--anthrazit); font-size: 18px; margin-bottom: 10px; transition: color .25s; }
+    .c-cat-desc { color: var(--grau-mid); font-size: 13px; line-height: 1.6; transition: color .25s; }
+    .c-cat-arrow { color: var(--rot); font-size: 18px; margin-top: 20px; }
+
+    .c-brands {
+      background: var(--anthrazit);
+      padding: 64px 80px;
+    }
+    .c-brands-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 40px; }
+    .c-brands-title { color: var(--weiss); font-family: 'Playfair Display', serif; font-size: 24px; }
+    .c-brands-link { color: #666; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; text-decoration: none; }
+    .c-brands-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 2px;
+    }
+    .c-brand-item {
+      background: #2a2a2a;
+      padding: 28px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background .2s;
+      cursor: default;
+    }
+    .c-brand-item:hover { background: #333; }
+    .c-brand-name { color: #666; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; text-align: center; transition: color .2s; }
+    .c-brand-item:hover .c-brand-name { color: var(--weiss); }
+
+    .c-about {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .c-about-img {
+      background: linear-gradient(145deg, #e0dbd3 0%, #ccc5bb 100%);
+      min-height: 480px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #aaa;
+      font-size: 12px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      gap: 10px;
+      flex-direction: column;
+    }
+    .c-about-text {
+      background: var(--rot);
+      padding: 80px 72px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .c-about-eyebrow { color: rgba(255,255,255,.6); font-size: 11px; letter-spacing: .2em; text-transform: uppercase; margin-bottom: 24px; }
+    .c-about-title { font-family: 'Playfair Display', serif; color: var(--weiss); font-size: 36px; line-height: 1.2; margin-bottom: 24px; }
+    .c-about-body { color: rgba(255,255,255,.8); font-size: 15px; line-height: 1.75; margin-bottom: 36px; }
+    .c-about-btn { background: var(--weiss); color: var(--rot); padding: 16px 36px; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; border: none; cursor: pointer; font-family: 'Inter', sans-serif; font-weight: 600; align-self: flex-start; transition: background .2s; }
+    .c-about-btn:hover { background: var(--anthrazit); color: var(--weiss); }
+
+    /* ============================================================
+       SHARED FOOTER
+    ============================================================ */
+    .site-footer {
+      background: #111;
+      border-top: 1px solid #222;
+      padding: 60px 80px 32px;
+    }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
+    .footer-brand { font-family: 'Playfair Display', serif; color: var(--weiss); font-size: 18px; margin-bottom: 16px; }
+    .footer-brand span { color: var(--rot); }
+    .footer-desc { color: #555; font-size: 13px; line-height: 1.7; }
+    .footer-heading { color: #888; font-size: 10px; letter-spacing: .2em; text-transform: uppercase; margin-bottom: 20px; }
+    .footer-links { list-style: none; }
+    .footer-links li { margin-bottom: 10px; }
+    .footer-links a { color: #555; text-decoration: none; font-size: 13px; transition: color .2s; }
+    .footer-links a:hover { color: #aaa; }
+    .footer-bottom { border-top: 1px solid #222; padding-top: 24px; display: flex; justify-content: space-between; align-items: center; }
+    .footer-copy { color: #444; font-size: 12px; }
+    .footer-legal { display: flex; gap: 24px; }
+    .footer-legal a { color: #444; text-decoration: none; font-size: 12px; transition: color .2s; }
+    .footer-legal a:hover { color: #888; }
+
+    /* img placeholder icon */
+    .ph-icon { width: 40px; height: 40px; stroke: currentColor; fill: none; stroke-width: 1.5; }
+  </style>
+</head>
+<body>
+
+  <!-- =============================================
+       SWITCHER
+  ============================================= -->
+  <nav class="switcher">
+    <span class="switcher-label">Designvorschlag:</span>
+    <button class="active" onclick="showDesign('a', this)">A – Dunkel &amp; Dramatisch</button>
+    <button onclick="showDesign('b', this)">B – Hell &amp; Editorial</button>
+    <button onclick="showDesign('c', this)">C – Split &amp; Architektonisch</button>
+    <span class="switcher-note">Feuerhaus Kalina · Grillwelt</span>
+  </nav>
+
+
+  <!-- ============================================================
+       VARIANTE A
+  ============================================================ -->
+  <div class="design active" id="design-a">
+
+    <nav class="a-nav">
+      <div class="a-logo">Feuerhaus <span>Kalina</span></div>
+      <ul class="a-nav-links">
+        <li><a href="#">Grillwelt</a></li>
+        <li><a href="#">Outdoor-Küchen</a></li>
+        <li><a href="#">Kamado &amp; Grill</a></li>
+        <li><a href="#">Plancha</a></li>
+        <li><a href="#">Hersteller</a></li>
+        <li><a href="#">Ratgeber</a></li>
+      </ul>
+      <button class="a-nav-cta">Beratung anfragen</button>
+    </nav>
+
+    <section class="a-hero">
+      <div class="a-hero-text">
+        <p class="a-hero-eyebrow">Grillwelt · Rimpar bei Würzburg</p>
+        <h1 class="a-hero-h1">
+          Grillen.<br>Nicht irgendwie.<br><em>Richtig.</em>
+        </h1>
+        <p class="a-hero-sub">
+          Kuratierte Premium-Grills, Outdoor-Küchen und Zubehör – persönlich beraten, live erlebt in unserer Ausstellung in Rimpar.
+        </p>
+        <div>
+          <a href="#" class="a-btn-primary">Ausstellung besuchen</a>
+          <a href="#" class="a-btn-ghost">Sortiment entdecken</a>
+        </div>
+      </div>
+      <div class="a-hero-image">
+        <div class="a-img-placeholder">
+          <svg class="ph-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+          Hero-Bild
+        </div>
+      </div>
+    </section>
+
+    <div class="a-brands">
+      <p class="a-brands-label">Unsere Marken</p>
+      <div class="a-brands-grid">
+        <div class="a-brand-chip">Kamado Joe</div>
+        <div class="a-brand-chip">CB Outdoor Kitchen</div>
+        <div class="a-brand-chip">Masterbuilt</div>
+        <div class="a-brand-chip">Xapron</div>
+        <div class="a-brand-chip">Zayiko</div>
+        <div class="a-brand-chip">Montargo</div>
+        <div class="a-brand-chip">Style de Vie</div>
+        <div class="a-brand-chip">Le Maître</div>
+        <div class="a-brand-chip">The Old Com</div>
+      </div>
+    </div>
+
+    <section class="a-categories">
+      <h2 class="a-section-title">Produktwelten</h2>
+      <p class="a-section-sub">Von der Outdoor-Küche bis zum Damastmesser – alles aus einer Hand, persönlich beraten.</p>
+      <div class="a-cats-grid">
+        <div class="a-cat">
+          <span class="a-cat-nr">01</span>
+          <div class="a-img-placeholder" style="position:absolute;inset:0;flex-direction:column;gap:8px;font-size:11px;">
+            <svg class="ph-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+            Outdoor-Küchen
+          </div>
+          <h3 class="a-cat-title">Outdoor-Küchen</h3>
+          <p class="a-cat-desc">CB · Montargo · Yakiniku</p>
+        </div>
+        <div class="a-cat">
+          <span class="a-cat-nr">02</span>
+          <div class="a-img-placeholder" style="position:absolute;inset:0;flex-direction:column;gap:8px;font-size:11px;">
+            <svg class="ph-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+            Kamado
+          </div>
+          <h3 class="a-cat-title">Kamado &amp; Keramikgrill</h3>
+          <p class="a-cat-desc">Kamado Joe · Masterbuilt</p>
+        </div>
+        <div class="a-cat">
+          <span class="a-cat-nr">03</span>
+          <div class="a-img-placeholder" style="position:absolute;inset:0;flex-direction:column;gap:8px;font-size:11px;">
+            <svg class="ph-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+            Plancha
+          </div>
+          <h3 class="a-cat-title">Plancha &amp; Feuerplatten</h3>
+          <p class="a-cat-desc">CB Plancha</p>
+        </div>
+        <div class="a-cat">
+          <span class="a-cat-nr">04</span>
+          <div class="a-img-placeholder" style="position:absolute;inset:0;flex-direction:column;gap:8px;font-size:11px;">
+            <svg class="ph-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+            Zubehör
+          </div>
+          <h3 class="a-cat-title">Zubehör &amp; Genuss</h3>
+          <p class="a-cat-desc">Xapron · Zayiko · Style de Vie</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="a-cta">
+      <div>
+        <h2 class="a-cta-title">Erleben statt nur lesen.</h2>
+        <p class="a-cta-sub">Besuchen Sie unsere Ausstellung in Rimpar und lassen Sie sich persönlich beraten.</p>
+      </div>
+      <button class="a-cta-btn">Ausstellung & Öffnungszeiten</button>
+    </div>
+
+    <!-- Shared Footer -->
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">Feuerhaus <span>Kalina</span></div>
+          <p class="footer-desc">Ihr Grillfachhandel in Rimpar bei Würzburg. Premium-Grills, Outdoor-Küchen und persönliche Beratung aus einer Hand.</p>
+        </div>
+        <div>
+          <p class="footer-heading">Produkte</p>
+          <ul class="footer-links">
+            <li><a href="#">Outdoor-Küchen</a></li>
+            <li><a href="#">Kamado &amp; Grill</a></li>
+            <li><a href="#">Plancha</a></li>
+            <li><a href="#">Zubehör</a></li>
+            <li><a href="#">Messer</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-heading">Hersteller</p>
+          <ul class="footer-links">
+            <li><a href="#">Kamado Joe</a></li>
+            <li><a href="#">CB Outdoor Kitchen</a></li>
+            <li><a href="#">Masterbuilt</a></li>
+            <li><a href="#">Xapron</a></li>
+            <li><a href="#">Alle Marken →</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-heading">Service</p>
+          <ul class="footer-links">
+            <li><a href="#">Ausstellung &amp; Beratung</a></li>
+            <li><a href="#">Ratgeber</a></li>
+            <li><a href="#">Über uns</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-copy">© 2025 Feuerhaus Kalina · Rimpar</span>
+        <div class="footer-legal">
+          <a href="#">Impressum</a>
+          <a href="#">Datenschutz</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <!-- ============================================================
+       VARIANTE B
+  ============================================================ -->
+  <div class="design" id="design-b">
+
+    <nav class="b-nav">
+      <div class="b-logo">Feuerhaus <span>Kalina</span></div>
+      <ul class="b-nav-links">
+        <li><a href="#">Grillwelt</a></li>
+        <li><a href="#">Outdoor-Küchen</a></li>
+        <li><a href="#">Kamado &amp; Grill</a></li>
+        <li><a href="#">Plancha</a></li>
+        <li><a href="#">Hersteller</a></li>
+        <li><a href="#">Ratgeber</a></li>
+      </ul>
+      <div class="b-nav-right">
+        <span class="b-nav-tel">0931 · XXX XXX</span>
+        <button class="b-nav-cta">Beratung anfragen</button>
+      </div>
+    </nav>
+
+    <section class="b-hero">
+      <div class="b-hero-image">
+        <div class="b-hero-image-inner">
+          <svg class="ph-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+          Hero-Bild
+        </div>
+      </div>
+      <div class="b-hero-text">
+        <span class="b-hero-eyebrow">Grillwelt · Rimpar bei Würzburg</span>
+        <h1 class="b-hero-h1">
+          Wo Feuer auf<br>Leidenschaft trifft.
+        </h1>
+        <div class="b-divider"></div>
+        <p class="b-hero-sub">
+          Premium-Grills, Outdoor-Küchen und kuratiertes Zubehör – erlebt und beraten in unserer Ausstellung in Rimpar. Persönlich, kompetent, aus einer Hand.
+        </p>
+        <div>
+          <a href="#" class="b-btn-primary">Ausstellung besuchen</a>
+          <a href="#" class="b-btn-link">Sortiment entdecken →</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="b-trust-bar">
+      <div class="b-trust-item">
+        <span class="b-trust-icon">◈</span>
+        <div>
+          <div class="b-trust-text">Ausstellung in Rimpar</div>
+          <div class="b-trust-sub">Live erleben & anfassen</div>
+        </div>
+      </div>
+      <div class="b-trust-item">
+        <span class="b-trust-icon">◈</span>
+        <div>
+          <div class="b-trust-text">Persönliche Beratung</div>
+          <div class="b-trust-sub">Familienunternehmen seit Jahren</div>
+        </div>
+      </div>
+      <div class="b-trust-item">
+        <span class="b-trust-icon">◈</span>
+        <div>
+          <div class="b-trust-text">Kuratiertes Sortiment</div>
+          <div class="b-trust-sub">Nur ausgewählte Premium-Marken</div>
+        </div>
+      </div>
+      <div class="b-trust-item">
+        <span class="b-trust-icon">◈</span>
+        <div>
+          <div class="b-trust-text">Aus einer Hand</div>
+          <div class="b-trust-sub">Kauf, Lieferung, Montage</div>
+        </div>
+      </div>
+    </div>
+
+    <section class="b-categories">
+      <div class="b-section-header">
+        <div>
+          <h2 class="b-section-title">Produktwelten</h2>
+          <p class="b-section-title-sub">Von der Outdoor-Küche bis zur Tischkultur</p>
+        </div>
+        <a href="#" class="b-section-link">Alle Kategorien →</a>
+      </div>
+      <div class="b-cats-grid">
+        <div class="b-cat">
+          <div class="b-cat-img">
+            <svg class="ph-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+          </div>
+          <div class="b-cat-body">
+            <div>
+              <p class="b-cat-tag">Premium</p>
+              <h3 class="b-cat-title">Outdoor-Küchen</h3>
+              <p class="b-cat-desc">CB Outdoor Kitchen, CB CeraKitchen und Montargo – modulare Außenküchen für höchste Ansprüche.</p>
+            </div>
+            <a href="#" class="b-cat-link">Entdecken →</a>
+          </div>
+        </div>
+        <div class="b-cat">
+          <div class="b-cat-img">
+            <svg class="ph-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+          </div>
+          <div class="b-cat-body">
+            <div>
+              <p class="b-cat-tag">Keramik &amp; Holzkohle</p>
+              <h3 class="b-cat-title">Kamado &amp; Grill</h3>
+              <p class="b-cat-desc">Kamado Joe und Masterbuilt – vom klassischen Keramikgrill bis zur digitalen Holzkohle-Präzision.</p>
+            </div>
+            <a href="#" class="b-cat-link">Entdecken →</a>
+          </div>
+        </div>
+        <div class="b-cat">
+          <div class="b-cat-img">
+            <svg class="ph-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+          </div>
+          <div class="b-cat-body">
+            <div>
+              <p class="b-cat-tag">Fläche statt Rost</p>
+              <h3 class="b-cat-title">Plancha &amp; Feuerplatten</h3>
+              <p class="b-cat-desc">CB Plancha – ganzflächiges Garen für Fleisch, Fisch, Gemüse und mehr. Eine neue Art zu kochen.</p>
+            </div>
+            <a href="#" class="b-cat-link">Entdecken →</a>
+          </div>
+        </div>
+        <div class="b-cat">
+          <div class="b-cat-img">
+            <svg class="ph-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+          </div>
+          <div class="b-cat-body">
+            <div>
+              <p class="b-cat-tag">Zubehör &amp; Genuss</p>
+              <h3 class="b-cat-title">Messer, Schürzen &amp; mehr</h3>
+              <p class="b-cat-desc">Xapron, Zayiko, Style de Vie – hochwertige Begleitung für echte Genussmenschen.</p>
+            </div>
+            <a href="#" class="b-cat-link">Entdecken →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="b-brands">
+      <p class="b-brands-label">Unsere Marken im Überblick</p>
+      <div class="b-brands-list">
+        <span class="b-brand">Kamado Joe</span>
+        <span class="b-brand">CB Outdoor Kitchen</span>
+        <span class="b-brand">Masterbuilt</span>
+        <span class="b-brand">Xapron</span>
+        <span class="b-brand">Zayiko</span>
+        <span class="b-brand">Montargo</span>
+        <span class="b-brand">Style de Vie</span>
+        <span class="b-brand">Le Maître</span>
+        <span class="b-brand">The Old Com</span>
+        <span class="b-brand">Neocube</span>
+      </div>
+    </div>
+
+    <section class="b-cta">
+      <div>
+        <h2 class="b-cta-title">Kommen Sie vorbei.<br><em>Wir beraten Sie gern.</em></h2>
+        <p class="b-cta-body">In unserer Ausstellung in Rimpar bei Würzburg können Sie alle Produkte live erleben. Kein Online-Katalog ersetzt das echte Gespräch.</p>
+      </div>
+      <div class="b-cta-right">
+        <button class="b-cta-btn">Ausstellung &amp; Öffnungszeiten</button>
+        <button class="b-cta-btn-ghost">Beratungsanfrage senden</button>
+        <p class="b-cta-address">Feuerhaus Kalina · Rimpar bei Würzburg<br>Mo–Fr 9–18 Uhr · Sa 10–16 Uhr</p>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">Feuerhaus <span>Kalina</span></div>
+          <p class="footer-desc">Ihr Grillfachhandel in Rimpar bei Würzburg. Premium-Grills, Outdoor-Küchen und persönliche Beratung aus einer Hand.</p>
+        </div>
+        <div>
+          <p class="footer-heading">Produkte</p>
+          <ul class="footer-links">
+            <li><a href="#">Outdoor-Küchen</a></li>
+            <li><a href="#">Kamado &amp; Grill</a></li>
+            <li><a href="#">Plancha</a></li>
+            <li><a href="#">Zubehör</a></li>
+            <li><a href="#">Messer</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-heading">Hersteller</p>
+          <ul class="footer-links">
+            <li><a href="#">Kamado Joe</a></li>
+            <li><a href="#">CB Outdoor Kitchen</a></li>
+            <li><a href="#">Masterbuilt</a></li>
+            <li><a href="#">Xapron</a></li>
+            <li><a href="#">Alle Marken →</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-heading">Service</p>
+          <ul class="footer-links">
+            <li><a href="#">Ausstellung &amp; Beratung</a></li>
+            <li><a href="#">Ratgeber</a></li>
+            <li><a href="#">Über uns</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-copy">© 2025 Feuerhaus Kalina · Rimpar</span>
+        <div class="footer-legal">
+          <a href="#">Impressum</a>
+          <a href="#">Datenschutz</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <!-- ============================================================
+       VARIANTE C
+  ============================================================ -->
+  <div class="design" id="design-c">
+
+    <nav class="c-nav">
+      <div class="c-nav-brand">
+        <div class="c-logo">
+          Feuerhaus <span>Kalina</span>
+          <sub>Grillwelt &amp; Outdoor Living</sub>
+        </div>
+      </div>
+      <div class="c-nav-links">
+        <a href="#">Outdoor-Küchen</a>
+        <a href="#">Kamado &amp; Grill</a>
+        <a href="#">Plancha</a>
+        <a href="#">Zubehör</a>
+        <a href="#">Hersteller</a>
+        <a href="#">Ratgeber</a>
+      </div>
+      <div class="c-nav-end">
+        <span class="c-nav-tel">0931 · XXX XXX</span>
+        <button class="c-nav-cta">Beratung anfragen</button>
+      </div>
+    </nav>
+
+    <section class="c-hero">
+      <div class="c-hero-left">
+        <div class="c-hero-counter">01 / 04</div>
+        <h1 class="c-hero-h1">
+          <strong>Grillwelt Rimpar · Würzburg</strong>
+          Das Feuer<br>gehört dazu.
+        </h1>
+        <p class="c-hero-desc">
+          Premium-Grills, Outdoor-Küchen und kuratiertes Zubehör. Persönlich beraten, live erlebt – im Herzen von Mainfranken.
+        </p>
+        <div class="c-hero-btns">
+          <button class="c-btn-a">Ausstellung besuchen</button>
+          <button class="c-btn-b">Sortiment entdecken</button>
+        </div>
+      </div>
+      <div class="c-hero-right">
+        <div class="c-hero-img-main">
+          <svg class="ph-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+          Hauptbild
+        </div>
+        <div class="c-hero-bottom">
+          <div class="c-hero-img-sm">
+            <svg class="ph-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+            Bild 2
+          </div>
+          <div class="c-hero-img-sm">
+            <svg class="ph-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+            Bild 3
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="c-strip">
+      <span class="c-strip-text">Ausstellung in Rimpar — Alle Produkte live erleben und persönlich beraten lassen</span>
+      <a href="#" class="c-strip-link">Anfahrt &amp; Öffnungszeiten →</a>
+    </div>
+
+    <section class="c-categories">
+      <div class="c-cats-inner">
+        <div class="c-section-header">
+          <p class="c-section-num">— Produktwelten</p>
+          <h2 class="c-section-title">Alles für das <span>große Feuer</span> im Freien.</h2>
+        </div>
+        <div class="c-cats-list">
+          <div class="c-cat">
+            <div class="c-cat-num">01</div>
+            <h3 class="c-cat-title">Outdoor-Küchen</h3>
+            <p class="c-cat-desc">CB · Montargo · Yakiniku</p>
+            <div class="c-cat-arrow">→</div>
+          </div>
+          <div class="c-cat">
+            <div class="c-cat-num">02</div>
+            <h3 class="c-cat-title">Kamado &amp; Keramikgrill</h3>
+            <p class="c-cat-desc">Kamado Joe · Masterbuilt</p>
+            <div class="c-cat-arrow">→</div>
+          </div>
+          <div class="c-cat">
+            <div class="c-cat-num">03</div>
+            <h3 class="c-cat-title">Plancha &amp; Feuerplatten</h3>
+            <p class="c-cat-desc">CB Plancha</p>
+            <div class="c-cat-arrow">→</div>
+          </div>
+          <div class="c-cat">
+            <div class="c-cat-num">04</div>
+            <h3 class="c-cat-title">Zubehör &amp; Genuss</h3>
+            <p class="c-cat-desc">Xapron · Zayiko · Style de Vie</p>
+            <div class="c-cat-arrow">→</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="c-brands">
+      <div class="c-brands-header">
+        <h2 class="c-brands-title">Unsere Marken</h2>
+        <a href="#" class="c-brands-link">Alle Hersteller →</a>
+      </div>
+      <div class="c-brands-grid">
+        <div class="c-brand-item"><span class="c-brand-name">Kamado Joe</span></div>
+        <div class="c-brand-item"><span class="c-brand-name">CB Outdoor Kitchen</span></div>
+        <div class="c-brand-item"><span class="c-brand-name">Masterbuilt</span></div>
+        <div class="c-brand-item"><span class="c-brand-name">Xapron</span></div>
+        <div class="c-brand-item"><span class="c-brand-name">Zayiko</span></div>
+        <div class="c-brand-item"><span class="c-brand-name">Montargo</span></div>
+        <div class="c-brand-item"><span class="c-brand-name">Style de Vie</span></div>
+        <div class="c-brand-item"><span class="c-brand-name">Le Maître</span></div>
+        <div class="c-brand-item"><span class="c-brand-name">The Old Com</span></div>
+        <div class="c-brand-item"><span class="c-brand-name">Neocube</span></div>
+      </div>
+    </section>
+
+    <section class="c-about">
+      <div class="c-about-img">
+        <svg class="ph-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+        Ausstellungsbild
+      </div>
+      <div class="c-about-text">
+        <p class="c-about-eyebrow">Über uns</p>
+        <h2 class="c-about-title">Kein Onlineshop. Ein Familienunternehmen.</h2>
+        <p class="c-about-body">
+          Feuerhaus Kalina ist kein Katalog. Wir sind ein Team aus Rimpar, das hochwertige Grills, Outdoor-Küchen und Zubehör nicht nur verkauft – sondern versteht, berät und mit Ihnen zusammen findet.
+        </p>
+        <button class="c-about-btn">Mehr über uns</button>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">Feuerhaus <span>Kalina</span></div>
+          <p class="footer-desc">Ihr Grillfachhandel in Rimpar bei Würzburg. Premium-Grills, Outdoor-Küchen und persönliche Beratung aus einer Hand.</p>
+        </div>
+        <div>
+          <p class="footer-heading">Produkte</p>
+          <ul class="footer-links">
+            <li><a href="#">Outdoor-Küchen</a></li>
+            <li><a href="#">Kamado &amp; Grill</a></li>
+            <li><a href="#">Plancha</a></li>
+            <li><a href="#">Zubehör</a></li>
+            <li><a href="#">Messer</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-heading">Hersteller</p>
+          <ul class="footer-links">
+            <li><a href="#">Kamado Joe</a></li>
+            <li><a href="#">CB Outdoor Kitchen</a></li>
+            <li><a href="#">Masterbuilt</a></li>
+            <li><a href="#">Xapron</a></li>
+            <li><a href="#">Alle Marken →</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-heading">Service</p>
+          <ul class="footer-links">
+            <li><a href="#">Ausstellung &amp; Beratung</a></li>
+            <li><a href="#">Ratgeber</a></li>
+            <li><a href="#">Über uns</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-copy">© 2025 Feuerhaus Kalina · Rimpar</span>
+        <div class="footer-legal">
+          <a href="#">Impressum</a>
+          <a href="#">Datenschutz</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <script>
+    function showDesign(id, btn) {
+      document.querySelectorAll('.design').forEach(d => d.classList.remove('active'));
+      document.querySelectorAll('.switcher button').forEach(b => b.classList.remove('active'));
+      document.getElementById('design-' + id).classList.add('active');
+      btn.classList.add('active');
+      window.scrollTo({ top: 52, behavior: 'smooth' });
+    }
+  </script>
+
+</body>
+</html>

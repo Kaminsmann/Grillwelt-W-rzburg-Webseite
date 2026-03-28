@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Rechtliche Seiten nicht indexieren
+Disallow: /impressum/
+Disallow: /datenschutz/
+
+# PHP-Ordner sperren
+Disallow: /php/
+
+Sitemap: https://grills.feuerhaus-kalina.de/sitemap.xml

@@ -1,0 +1,860 @@
+[
+  {
+    "marke": "Laguiole",
+    "serie": "Innovation Line",
+    "name": "Innovation Line Buttermesser Graues Pakkaholz",
+    "img": "img/laguiole/innobotergrijs.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Innovation Line",
+    "name": "Innovation Line Kochmesserset Eichenholz mit Magnet-Messerblock",
+    "img": "img/laguiole/innokoksseteik.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Innovation Line",
+    "name": "Innovation Line Käsemesser Eichenholz",
+    "img": "img/laguiole/innokaaseik.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Innovation Line",
+    "name": "Innovation Line Käsemesser Graues Pakkaholz",
+    "img": "img/laguiole/innokaasgrijs.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Innovation Line",
+    "name": "Innovation Line Steakmesser Eichenholz glatte Klinge",
+    "img": "img/laguiole/innosteakeikglad.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Innovation Line",
+    "name": "Innovation Line Steakmesser Eichenholz gezackte Klinge",
+    "img": "img/laguiole/innosteakeik.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Innovation Line",
+    "name": "Innovation Line Steakmesser Graues Pakkaholz glatte Klinge",
+    "img": "img/laguiole/innosteakgrijsglad.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Austern-Geschenkset Eichenholz",
+    "img": "img/laguiole/oestereikgift.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Austern-Geschenkset Olivenholz",
+    "img": "img/laguiole/oesterolivegift.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Austern-Geschenkset Wengé Black Stonewash",
+    "img": "img/laguiole/oesterwengegift.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line BBQ Set Olivenholz",
+    "img": "img/laguiole/luxbbqsetolive.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Besteckset 16-teilig Olivenholz",
+    "img": "img/laguiole/couvertolijf16-del.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Brotmesser Olivenholz",
+    "img": "img/laguiole/broodolijflag.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Buttermesser Eiche Stonewash",
+    "img": "img/laguiole/botereikstone.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Buttermesser Olivenholz",
+    "img": "img/laguiole/boterolijf.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Champagnersäbel Olivenholz",
+    "img": "img/laguiole/sabelolijf.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Champagnersäbel Rose",
+    "img": "img/laguiole/sabelroos.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Charcuterie-Set Olivenholz",
+    "img": "img/laguiole/luxcharolive.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Gabeln Eichenholz Stonewash",
+    "img": "img/laguiole/luxvorkeikstone.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Gabeln Olivenholz",
+    "img": "img/laguiole/luxvorkolijf.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Gabeln Rose",
+    "img": "img/laguiole/luxvorkrose.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Gabeln Schwarzes Pakkaholz",
+    "img": "img/laguiole/luxvorkzwart.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Kochmesser Olivenholz",
+    "img": "img/laguiole/koksolijflag.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Kochmesserset Olivenholz mit Magnet-Messerblock Akazie",
+    "img": "img/laguiole/koksmessetolijf.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Korkenzieher Eiche mit Zubehör",
+    "img": "img/laguiole/kurkeikgift.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Korkenzieher Olivenholz",
+    "img": "img/laguiole/kurkolijf.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Korkenzieher Rose",
+    "img": "img/laguiole/kurkroos.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Korkenzieher Schwarzes Pakkaholz",
+    "img": "img/laguiole/kurkzwart.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Käsemesserset Eichenholz Stonewash",
+    "img": "img/laguiole/luxkaaseikstone.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Käsemesserset Eichenholz Stonewash V2",
+    "img": "img/laguiole/luxkaasv2eikstone.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Käsemesserset Olivenholz",
+    "img": "img/laguiole/luxkaasolijf.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Käsemesserset Olivenholz V2",
+    "img": "img/laguiole/luxkaasv2olijf.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Löffel Olivenholz",
+    "img": "img/laguiole/luxlepelolijf.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Löffel Rostfreier Stahl",
+    "img": "img/laguiole/luxlepelrvs.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Mini-Besteckset Olivenholz",
+    "img": "img/laguiole/luxminicouvol.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Santokumesser Olivenholz",
+    "img": "img/laguiole/santolijflag.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Santokumesser Olivenholz mit Schneidebrett",
+    "img": "img/laguiole/santokuolijfplank.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Steakmesser Eichenholz Stonewash",
+    "img": "img/laguiole/luxsteakeikstone.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Steakmesser Olivenholz",
+    "img": "img/laguiole/luxsteakolijf.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Steakmesser Rose",
+    "img": "img/laguiole/luxsteakrose.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Steakmesser Rostfreier Stahl",
+    "img": "img/laguiole/luxsteakrvs.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Steakmesser Schwarzes Pakkaholz",
+    "img": "img/laguiole/luxsteakzwart.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Steakmesser Verschiedene Holzarten",
+    "img": "img/laguiole/luxsteakmix.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Steakmesser Wengé Schwarz",
+    "img": "img/laguiole/luxsteakwengezw.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Taschenmesser Ahornholz",
+    "img": "img/laguiole/zakmesdoorn.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Taschenmesser Rose",
+    "img": "img/laguiole/zakmroos.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Taschenmesser Rose mit Lederhülle",
+    "img": "img/laguiole/zakmleerroos.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Taschenmesser Schwarzes Pakkaholz",
+    "img": "img/laguiole/zakmzwart.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Taschenmesser Zebranoholz mit Lederhülle",
+    "img": "img/laguiole/zakmleerzebrano.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Taschenmesser mit Korkenzieher Olivenholz",
+    "img": "img/laguiole/zakmkurkolijf.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line Taschenmesser-Bausatz",
+    "img": "img/laguiole/maaklagzakm.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Luxury Line",
+    "name": "Luxury Line The Exclusive Edition",
+    "img": "img/laguiole/champcavoystoak.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Pizzaschneider mit Servierbrett Akazie",
+    "img": "img/laguiole/prempizzazw.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line 12-teiliges Mini-Besteckset Schwarz",
+    "img": "img/laguiole/prminicouvzw.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line 3-teiliges Küchenmesser-Set Schwarz",
+    "img": "img/laguiole/pressentknzw3pcs.png"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line 3-teiliges Reiben-Set",
+    "img": "img/laguiole/prrasp3delzwgift.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line 5 Käsemesser Schwarz mit Servierbrett",
+    "img": "img/laguiole/kaas5zwartplank.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line 8 Käsemesser Schwarz mit Servierbrett",
+    "img": "img/laguiole/kaas8zwartplank.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Santoku Käsemesser mit Akazienholz-Brett",
+    "img": "img/laguiole/santplankacazw.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Amuse-Bouche Löffel Schwarz 6 Stück",
+    "img": "img/laguiole/pramusezw.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Besteckset 24-teilig Rostfreier Stahl",
+    "img": "img/laguiole/prcouvrvs.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Besteckset 24-teilig Schwarz",
+    "img": "img/laguiole/prcouvzwart.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Brotmesser Schwarz",
+    "img": "img/laguiole/broodzwart.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Brotmesser Schwarz mit Baguette-Schneidebrett",
+    "img": "img/laguiole/broodplankzwart.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Buttermesser Black Stonewash",
+    "img": "img/laguiole/botermesblackstone.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Buttermesser Dark Wood",
+    "img": "img/laguiole/botermesdarkwood.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Buttermesser Perlmutt",
+    "img": "img/laguiole/botermesparel.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Buttermesser Rostfreier Stahl",
+    "img": "img/laguiole/botermesrvs.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Buttermesser Schwarz",
+    "img": "img/laguiole/botermeszwart.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Buttermesser Treasure",
+    "img": "img/laguiole/botermestreasure.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Gabeln Rostfreier Stahl 1.8 mm",
+    "img": "img/laguiole/prvorkrvs.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Gabeln Schwarz 1.8 mm",
+    "img": "img/laguiole/prvorkzwart.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Kuchengabeln Schwarz",
+    "img": "img/laguiole/taartvorkzwart.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Käsemesser Black Stonewash",
+    "img": "img/laguiole/kaasblackstone1st.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Käsemesser Schwarz",
+    "img": "img/laguiole/kaaszwart1st.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Käsemesserset 3-teilig Black Stonewash",
+    "img": "img/laguiole/kaasblackstone3del.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Käsemesserset 3-teilig Dark Wood",
+    "img": "img/laguiole/kaasdarkwood3del.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Käsemesserset 3-teilig Perlmutt",
+    "img": "img/laguiole/kaasparel3del.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Käsemesserset 3-teilig Rostfreier Stahl",
+    "img": "img/laguiole/kaasrvs3del.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Käsemesserset 3-teilig Schwarz",
+    "img": "img/laguiole/kaaszwart3del.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Käsemesserset 3-teilig Treasure",
+    "img": "img/laguiole/kaastreasure3del.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Käseschneider & Käsereibe Schwarz",
+    "img": "img/laguiole/premschaafraspzwart.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Mini-Löffel Schwarz",
+    "img": "img/laguiole/prminispoonzw.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Pinchos Schwarz",
+    "img": "img/laguiole/pinchozwartabs.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Pizzaschneider Schwarz",
+    "img": "img/laguiole/prpizzasnijder.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Reibe Extra Grob Schwarz",
+    "img": "img/laguiole/prraspexcoarsezw.png"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Reibe Fein Schwarz",
+    "img": "img/laguiole/prraspfinezw.png"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Reibe Ribbon Schwarz",
+    "img": "img/laguiole/prraspribbonzw.png"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Reibe Zester Schwarz",
+    "img": "img/laguiole/prraspzestzw.png"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Steakmesser Black Stonewash 1.8 mm",
+    "img": "img/laguiole/1_8premblackstone.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Steakmesser Dark Wood 1.8 mm",
+    "img": "img/laguiole/1_8premdarkwood.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Steakmesser Perlmutt 1.8 mm",
+    "img": "img/laguiole/1_8premparel.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Steakmesser Rostfreier Stahl 1.8 mm",
+    "img": "img/laguiole/1_8premrvs.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Steakmesser Schwarz 1.8 mm",
+    "img": "img/laguiole/1_8premzwart.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Steakmesser Treasure 1.8 mm",
+    "img": "img/laguiole/1_8premtreasure.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Steakmesser Wood 1.8 mm",
+    "img": "img/laguiole/1_8premwood.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Premium Line",
+    "name": "Premium Line Wurstteller Akazienholz mit Schwarzem Messer",
+    "img": "img/laguiole/worstplankaca.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Prestige Line",
+    "name": "Prestige Line Buttermesser Copper Stonewash",
+    "img": "img/laguiole/presboterkopzw.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Prestige Line",
+    "name": "Prestige Line Buttermesser Gold Stonewash",
+    "img": "img/laguiole/presbotergoudzw.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Prestige Line",
+    "name": "Prestige Line Käsemesserset 3-teilig Copper Stonewash",
+    "img": "img/laguiole/preskaaskopzw3.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Prestige Line",
+    "name": "Prestige Line Käsemesserset 3-teilig Gold Stonewash",
+    "img": "img/laguiole/preskaasgoudzw3.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Prestige Line",
+    "name": "Prestige Line Steakmesser Copper Stonewash",
+    "img": "img/laguiole/pressteakkopzw.jpg"
+  },
+  {
+    "marke": "Laguiole",
+    "serie": "Prestige Line",
+    "name": "Prestige Line Steakmesser Gold Stonewash",
+    "img": "img/laguiole/pressteakgoudzw.jpg"
+  },
+  {
+    "marke": "Style de Vie",
+    "serie": "",
+    "name": "2 Keramik Olivenöl-Schälchen",
+    "img": "img/style-de-vie/olijfdipschaal2.jpg"
+  },
+  {
+    "marke": "Style de Vie",
+    "serie": "",
+    "name": "6-teiliges Käse- und Buttermesserset Schwarz",
+    "img": "img/style-de-vie/sdvcheese6black.jpg"
+  },
+  {
+    "marke": "Style de Vie",
+    "serie": "",
+    "name": "6-teiliges Käse- und Buttermesserset Gold",
+    "img": "img/style-de-vie/sdvcheese6gold.jpg"
+  },
+  {
+    "marke": "Style de Vie",
+    "serie": "",
+    "name": "6-teiliges Käse- und Buttermesserset Stahl",
+    "img": "img/style-de-vie/sdvcheese6steel.jpg"
+  },
+  {
+    "marke": "Style de Vie",
+    "serie": "",
+    "name": "Keramik Olivenöl-Schale",
+    "img": "img/style-de-vie/olijfdipschaal.jpg"
+  },
+  {
+    "marke": "Style de Vie",
+    "serie": "",
+    "name": "Keramik Olivenöl-Schale Baum",
+    "img": "img/style-de-vie/olijfdipboom.jpg"
+  },
+  {
+    "marke": "Style de Vie",
+    "serie": "",
+    "name": "Keramik Olivenöl-, Butter- und Gewürzschale 3-teilig",
+    "img": "img/style-de-vie/olijfdip3del.png"
+  },
+  {
+    "marke": "Style de Vie",
+    "serie": "",
+    "name": "Magnetischer Messerblock Eiche auf Natursteinfuß",
+    "img": "img/style-de-vie/magneiksteen.png"
+  },
+  {
+    "marke": "Style de Vie",
+    "serie": "",
+    "name": "Magnetischer Messerblock Walnuss auf Natursteinfuß",
+    "img": "img/style-de-vie/magnwalsteen.png"
+  },
+  {
+    "marke": "Style de Vie",
+    "serie": "",
+    "name": "Magnetischer Messerblock Eichenholz",
+    "img": "img/style-de-vie/magnstanoak.jpg"
+  },
+  {
+    "marke": "Style de Vie",
+    "serie": "",
+    "name": "Magnetische Messerleiste 50 cm Akazie",
+    "img": "img/style-de-vie/magnacacia50cm.jpg"
+  },
+  {
+    "marke": "Style de Vie",
+    "serie": "",
+    "name": "Magnetische Messerleiste 50 cm Eiche",
+    "img": "img/style-de-vie/magneik50cm.jpg"
+  },
+  {
+    "marke": "Style de Vie",
+    "serie": "",
+    "name": "Magnetische Messerleiste 50 cm Walnuss",
+    "img": "img/style-de-vie/magnwalnoot50cm.jpg"
+  },
+  {
+    "marke": "Style de Vie",
+    "serie": "",
+    "name": "Magnetische Messerleiste Natur Akazie",
+    "img": "img/style-de-vie/magnnatuuraca.jpg"
+  },
+  {
+    "marke": "Style de Vie",
+    "serie": "",
+    "name": "Schneidebrett Natur Akazie Large",
+    "img": "img/style-de-vie/snijnatacal.jpg"
+  },
+  {
+    "marke": "Style de Vie",
+    "serie": "",
+    "name": "Schneidebrett Natur Akazie Medium",
+    "img": "img/style-de-vie/snijnatacam.jpg"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Buñuelos Formen Flower Power 2-teilig",
+    "img": "img/plate-it/pibunflowpow.png"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Buñuelos Formen Tartelettes 2-teilig",
+    "img": "img/plate-it/pibuntart.png"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Buñuelos Formen Under the Sea 2-teilig",
+    "img": "img/plate-it/pibunsea.png"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Buñuelos Griff",
+    "img": "img/plate-it/pibunhandle.png"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Buñuelos Rosetten 3-teilig",
+    "img": "img/plate-it/pibunuelos3.png"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Dekorationspinsel 2-teilig",
+    "img": "img/plate-it/pibrush2.png"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Dekorationspinzette 2-teilig",
+    "img": "img/plate-it/pitweezers2.png"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Dekorationssieb 8 cm",
+    "img": "img/plate-it/pidecosieve8.png"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Dekorierlöffel 2-teilig",
+    "img": "img/plate-it/pidecspoons2.jpg"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Formen Circle 3-teilig",
+    "img": "img/plate-it/pimoldscircle.png"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Formen Infinity 3-teilig",
+    "img": "img/plate-it/pimoldsinfinity.png"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Formen Love At First Bite 3-teilig",
+    "img": "img/plate-it/pimoldslove.png"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Formen Wood 3-teilig",
+    "img": "img/plate-it/pimoldswood.png"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Garnierflaschen 3-teilig 220 ml",
+    "img": "img/plate-it/pibottles220.jpg"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Garnier Squeeze-Flaschen 2-teilig 500 ml",
+    "img": "img/plate-it/pibottles500.png"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Garnierringe 4-teilig",
+    "img": "img/plate-it/pigarnrings4.jpg"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Garnierringe Hexagon 4-teilig + Stößel",
+    "img": "img/plate-it/pigarnhexa4.jpg"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Offset-Spachtel 3-teilig",
+    "img": "img/plate-it/pispat3.png"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Plattenteller Glas 30 cm",
+    "img": "img/plate-it/piturntable.png"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Quenelle-Löffel Large 2-teilig",
+    "img": "img/plate-it/piquenellesl.png"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Quenelle-Löffel Small 2-teilig",
+    "img": "img/plate-it/piquenelless.png"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Schaber Vol.1 3-teilig",
+    "img": "img/plate-it/piscrapervol1.png"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Spritzbeutelhalter inkl. Zubehör",
+    "img": "img/plate-it/pinozzle11.png"
+  },
+  {
+    "marke": "Plate-it",
+    "serie": "",
+    "name": "Teller-Schablonen Hexagon 6-teilig",
+    "img": "img/plate-it/pistenhexa6.png"
+  }
+]
