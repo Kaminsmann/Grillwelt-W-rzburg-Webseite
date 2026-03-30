@@ -24,17 +24,24 @@
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a href="/" class="logo"><img src="/img/ui/logo.svg" alt="Feuerhaus Kalina" width="180" height="48"></a>
+      <a href="/" class="nav-logo" aria-label="Feuerhaus Kalina Grillwelt – Startseite">
+          Feuerhaus <span>Kalina</span>
+          <sub>Grillwelt &amp; Outdoor Living</sub>
+        </a>
       <nav class="main-nav" aria-label="Hauptnavigation">
         <ul>
           <li><a href="/outdoor-kuechen/">Outdoor-Küchen</a></li>
           <li><a href="/keramikgrills-kamado/">Keramikgrills</a></li>
           <li><a href="/plancha-feuerplatten/">Plancha</a></li>
+          <li><a href="/schuerzen/">Schürzen</a></li>
           <li><a href="/hersteller/" class="active">Hersteller</a></li>
           <li><a href="/ratgeber/">Ratgeber</a></li>
           <li><a href="/kontakt/">Kontakt</a></li>
         </ul>
-      </nav>
+                  </nav>
+      <button class="nav-menu-toggle" aria-label="Menü öffnen" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </header>
 
@@ -162,9 +169,35 @@
     </section>
   </main>
 
-  <footer class="site-footer">
+    <footer class="site-footer">
     <div class="container footer-inner">
-      <p>&copy; 2025 Feuerhaus Kalina GmbH &middot; <a href="/impressum/">Impressum</a> &middot; <a href="/datenschutz/">Datenschutz</a></p>
+      <div class="footer-col">
+        <strong>Feuerhaus Kalina</strong>
+        <p>Würzburger Str. 2<br>97222 Rimpar</p>
+        <p><a href="tel:+499365884030">09365 884030</a></p>
+      </div>
+      <div class="footer-col">
+        <strong>Sortiment</strong>
+        <ul>
+          <li><a href="/outdoor-kuechen/">Outdoor-Küchen</a></li>
+          <li><a href="/keramikgrills-kamado/">Keramikgrills</a></li>
+          <li><a href="/plancha-feuerplatten/">Plancha</a></li>
+          <li><a href="/zubehoer/">Zubehör</a></li>
+          <li><a href="/hersteller/">Hersteller</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <strong>Service</strong>
+        <ul>
+          <li><a href="/ratgeber/">Ratgeber</a></li>
+          <li><a href="/kontakt/">Kontakt</a></li>
+          <li><a href="/impressum/">Impressum</a></li>
+          <li><a href="/datenschutz/">Datenschutz</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-copy">
+      <div class="container">© 2025 Feuerhaus Kalina – Grillwelt Würzburg</div>
     </div>
   </footer>
 
@@ -173,16 +206,6 @@
     <button onclick="document.getElementById('cookie-banner').style.display='none';localStorage.setItem('cookies','1')" class="btn btn-primary btn-sm">Akzeptieren</button>
   </div>
   <script>if(localStorage.getItem('cookies'))document.getElementById('cookie-banner').style.display='none';</script>
-  <script>
-    document.addEventListener('DOMContentLoaded',function(){
-      var lazy=document.querySelectorAll('img.lazy');
-      if('IntersectionObserver' in window){
-        var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.src=e.target.dataset.src;obs.unobserve(e.target);}});});
-        lazy.forEach(function(img){obs.observe(img);});
-      } else {
-        lazy.forEach(function(img){img.src=img.dataset.src;});
-      }
-    });
-  </script>
+  <script src="/js/main.js"></script>
 </body>
 </html>
