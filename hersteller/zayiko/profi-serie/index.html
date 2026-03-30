@@ -22,28 +22,33 @@
   </script>
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="/" class="nav-logo" aria-label="Feuerhaus Kalina Grillwelt – Startseite">
+    <nav class="site-nav" role="navigation" aria-label="Hauptnavigation">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="/" class="nav-logo" aria-label="Feuerhaus Kalina Grillwelt – Startseite">
           Feuerhaus <span>Kalina</span>
           <sub>Grillwelt &amp; Outdoor Living</sub>
         </a>
-      <nav class="main-nav" aria-label="Hauptnavigation">
-        <ul>
+        <ul class="nav-links" role="list">
           <li><a href="/outdoor-kuechen/">Outdoor-Küchen</a></li>
-          <li><a href="/keramikgrills-kamado/">Keramikgrills</a></li>
+          <li><a href="/keramikgrills-kamado/">Kamado &amp; Grill</a></li>
           <li><a href="/plancha-feuerplatten/">Plancha</a></li>
-          <li><a href="/schuerzen/">Schürzen</a></li>
-          <li><a href="/hersteller/" class="active">Hersteller</a></li>
+          <li><a href="/zubehoer/">Zubehör</a></li>
+          <li><a href="/hersteller/">Hersteller</a></li>
           <li><a href="/ratgeber/">Ratgeber</a></li>
-          <li><a href="/kontakt/">Kontakt</a></li>
         </ul>
-                  </nav>
-      <button class="nav-menu-toggle" aria-label="Menü öffnen" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
+        <div class="nav-end">
+          <div class="nav-tel">
+            <a href="tel:+4993658884218">09365 / 888 42 18</a>
+          </div>
+          <a href="/kontakt/" class="nav-cta">Beratung anfragen</a>
+        </div>
+        <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
     </div>
-  </header>
+  </nav>
 
   <main>
     <section class="page-hero">
@@ -205,35 +210,66 @@
     </section>
   </main>
 
-    <footer class="site-footer">
-    <div class="container footer-inner">
-      <div class="footer-col">
-        <strong>Feuerhaus Kalina</strong>
-        <p>Würzburger Str. 2<br>97222 Rimpar</p>
-        <p><a href="tel:+499365884030">09365 884030</a></p>
-      </div>
-      <div class="footer-col">
-        <strong>Sortiment</strong>
-        <ul>
-          <li><a href="/outdoor-kuechen/">Outdoor-Küchen</a></li>
-          <li><a href="/keramikgrills-kamado/">Keramikgrills</a></li>
-          <li><a href="/plancha-feuerplatten/">Plancha</a></li>
-          <li><a href="/zubehoer/">Zubehör</a></li>
-          <li><a href="/hersteller/">Hersteller</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <strong>Service</strong>
-        <ul>
-          <li><a href="/ratgeber/">Ratgeber</a></li>
-          <li><a href="/kontakt/">Kontakt</a></li>
-          <li><a href="/impressum/">Impressum</a></li>
-          <li><a href="/datenschutz/">Datenschutz</a></li>
-        </ul>
+      <footer class="site-footer" role="contentinfo">
+    <div class="footer-main">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div class="footer-brand">Feuerhaus <span>Kalina</span></div>
+            <p class="footer-desc">Ihr Premium-Grillfachhandel in Rimpar bei Würzburg. Persönliche Beratung, kuratiertes Sortiment und live Ausstellung – alles aus einer Hand.</p>
+            <div class="footer-oz">
+              <strong>Öffnungszeiten:</strong><br>
+              Mo: Ruhetag · Di: auf Anfrage<br>
+              Mi–Fr: 12:00–18:30 Uhr<br>
+              Sa: 10:00–14:00 Uhr
+            </div>
+          </div>
+          <div>
+            <p class="footer-heading">Produktwelten</p>
+            <ul class="footer-links">
+              <li><a href="/outdoor-kuechen/">Outdoor-Küchen</a></li>
+              <li><a href="/keramikgrills-kamado/">Kamado &amp; Keramikgrill</a></li>
+              <li><a href="/plancha-feuerplatten/">Plancha &amp; Feuerplatten</a></li>
+              <li><a href="/zubehoer/">Zubehör &amp; Grillhelfer</a></li>
+              <li><a href="/messer/">Damastmesser</a></li>
+              <li><a href="/schuerzen/">Schürzen &amp; Accessoires</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer-heading">Hersteller</p>
+            <ul class="footer-links">
+              <li><a href="/hersteller/kamado-joe/">Kamado Joe</a></li>
+              <li><a href="/hersteller/masterbuilt/">Masterbuilt</a></li>
+              <li><a href="/hersteller/cb-outdoor-kitchen/">CB Outdoor Kitchen</a></li>
+              <li><a href="/hersteller/everdure-by-heston/">Everdure by Heston</a></li>
+              <li><a href="/hersteller/grandhall/">Grandhall</a></li>
+              <li><a href="/hersteller/xapron/">Xapron</a></li>
+              <li><a href="/hersteller/">Alle Marken →</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer-heading">Feuerhaus Kalina</p>
+            <ul class="footer-links">
+              <li><a href="/ausstellung-beratung/">Ausstellung &amp; Beratung</a></li>
+              <li><a href="/ratgeber/">Ratgeber &amp; Tipps</a></li>
+              <li><a href="/kontakt/">Kontakt</a></li>
+            </ul>
+            <div style="margin-top:24px;">
+              <a href="tel:+4993658884218" style="color:#666;font-size:14px;display:block;margin-bottom:4px;transition:color .25s;" onmouseover="this.style.color='#9B2429'" onmouseout="this.style.color='#666'">09365 / 888 42 18</a>
+              <a href="mailto:info@feuerhaus-kalina.de" style="color:#666;font-size:13px;transition:color .25s;" onmouseover="this.style.color='#9B2429'" onmouseout="this.style.color='#666'">info@feuerhaus-kalina.de</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="footer-copy">
-      <div class="container">© 2025 Feuerhaus Kalina – Grillwelt Würzburg</div>
+    <div class="container">
+      <div class="footer-bottom">
+        <span class="footer-copy">© 2025 Feuerhaus Kalina · Maidbronner Straße 3 · 97222 Rimpar</span>
+        <div class="footer-legal">
+          <a href="/impressum/">Impressum</a>
+          <a href="/datenschutz/">Datenschutz</a>
+        </div>
+      </div>
     </div>
   </footer>
 
