@@ -1850,7 +1850,7 @@ h1, h2, h3, h4 {
 @media (max-width: 1024px) {
   .r-3col { grid-template-columns: 1fr 1fr !important; }
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .r-3col { grid-template-columns: 1fr !important; }
 }
 
@@ -1871,8 +1871,8 @@ h1, h2, h3, h4 {
 @media (max-width: 1024px) {
   .r-2col { row-gap: 40px !important; }
 }
-@media (max-width: 600px) {
-  .r-3col { row-gap: 28px !important; }
+@media (max-width: 768px) {
+  .r-3col { row-gap: 20px !important; }
 }
 
 /* ============================================================

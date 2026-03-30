@@ -483,15 +483,20 @@
   function initSearch() {
     var index = window.FK_SEARCH_INDEX || [];
 
-    // Always inject search button – independent of whether index loaded
+    // Inject search button – homepage uses .nav-end, scraped pages use .header-inner
+    var searchBtn = document.createElement('button');
+    searchBtn.className = 'nav-search-btn';
+    searchBtn.setAttribute('aria-label', 'Suche öffnen');
+    searchBtn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>';
+    searchBtn.addEventListener('click', openSearch);
+
     var navEnd = document.querySelector('.nav-end');
+    var menuToggle = document.querySelector('.nav-menu-toggle');
+    var headerInner = document.querySelector('.header-inner');
     if (navEnd) {
-      var btn = document.createElement('button');
-      btn.className = 'nav-search-btn';
-      btn.setAttribute('aria-label', 'Suche öffnen');
-      btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>';
-      navEnd.insertBefore(btn, navEnd.firstChild);
-      btn.addEventListener('click', openSearch);
+      navEnd.insertBefore(searchBtn, navEnd.firstChild);
+    } else if (headerInner && menuToggle) {
+      headerInner.insertBefore(searchBtn, menuToggle);
     }
 
     // Build modal
