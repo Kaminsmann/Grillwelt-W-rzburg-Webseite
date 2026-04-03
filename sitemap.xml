@@ -316,6 +316,21 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://grills.feuerhaus-kalina.de/hersteller/crossray/c4-gasgrill/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://grills.feuerhaus-kalina.de/hersteller/crossray/c2-gasgrill/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://grills.feuerhaus-kalina.de/hersteller/crossray/outdoor-kueche/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://grills.feuerhaus-kalina.de/hersteller/yakiniku/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
