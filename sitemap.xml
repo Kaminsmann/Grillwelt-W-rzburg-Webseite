@@ -398,6 +398,21 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://grills.feuerhaus-kalina.de/hersteller/le-maitre/feuerkorb/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://grills.feuerhaus-kalina.de/hersteller/le-maitre/tische/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://grills.feuerhaus-kalina.de/hersteller/le-maitre/zubehoer/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://grills.feuerhaus-kalina.de/hersteller/the-meatstick/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
