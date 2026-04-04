@@ -388,6 +388,41 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://grills.feuerhaus-kalina.de/hersteller/heatstrip/classic-design/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://grills.feuerhaus-kalina.de/hersteller/heatstrip/elegance/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://grills.feuerhaus-kalina.de/hersteller/heatstrip/enhance/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://grills.feuerhaus-kalina.de/hersteller/heatstrip/intense/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://grills.feuerhaus-kalina.de/hersteller/heatstrip/max/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://grills.feuerhaus-kalina.de/hersteller/heatstrip/indoor/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://grills.feuerhaus-kalina.de/hersteller/heatstrip/gas/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://grills.feuerhaus-kalina.de/hersteller/camp-chef/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -451,6 +486,26 @@
   </url>
   <url>
     <loc>https://grills.feuerhaus-kalina.de/ratgeber/kamado-grill-anfaenger/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grills.feuerhaus-kalina.de/ratgeber/damastmesser/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grills.feuerhaus-kalina.de/ratgeber/terrassenheizung-kaufen/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grills.feuerhaus-kalina.de/ratgeber/pizzaofen-garten/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grills.feuerhaus-kalina.de/ratgeber/plancha-grill/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
